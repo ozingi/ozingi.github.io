@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img",
-    "\\img\\payment",
-    "\\Json\\MMoudle",
-    "\\Json\\MMoudle\\update",
-    "\\Json\\MMoudle\\update\\moto_widget_and_launcher"
+    "\\css",
+    "\\script"
   ],
-  "SelectedNode": "\\img\\payment\\Alipay.jpg",
   "PreviewInSolutionExplorer": false
 }
