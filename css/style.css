@@ -1,4 +1,4 @@
-/*
+﻿/*
 * {
   margin: 0;
   padding: 0;
@@ -10,25 +10,53 @@ body {
   overflow: hidden;
 }
 .main{
-margin-left:auto;margin-right:auto;
+margin-left:auto;margin-right:auto;margin-top:150px;
 position:relative; 
 text-align:center;
 z-index:999;
 }
 .webgl {
-  position: fixed;
-  top: 0;
-  left: 0;
-  outline: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    animation: mymove 5s ease;
+    animation-fill-mode: forwards
 }
-h1{
-text-align:center;
-color:#ff822d
+
+@keyframes mymove {
+    0% {
+        display: block;
+    }
+
+    100% {
+        display: none;
+    }
 }
-#Dialog_1{
-visibility:hidden;
-width:auto;
-height:auto;
+a {
+    color: #ff822d;
+    text-decoration: none;
+}
+    a :hover {
+    color:red;
+    }
 
+    #Dialog_1 {
+        visibility: hidden;
+        width: auto;
+        height: auto;
+    }
+@keyframes fadenum {
 
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }

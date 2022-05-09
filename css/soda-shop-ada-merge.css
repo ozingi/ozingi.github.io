@@ -1,0 +1,3046 @@
+﻿html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}main{display:block}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button{overflow:visible;text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}input{overflow:visible}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}select{text-transform:none}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}@font-face{font-family:Cervo Neue Black;src:url(./fonts/178a2cf8-1429-4101-9c89-1f820cd1c5fa.c8c0a0a20d0543b844b63f47d41cf52a.woff2) format("woff2"),url(./fonts/7594a6b6-e2a3-4f7c-a57c-7f3642338ada.e49234047e5f9eece6ae3055b8d19ffd.woff) format("woff"),url(./fonts/239548d6-9ca4-435b-8445-f4d87715ac88.178d033902553e936c3c19648714e99a.ttf) format("truetype")}@font-face{font-family:Sofia Pro Regular;src:url(./fonts/8b31e0d7-5f53-45c2-b318-064f0b532543.6980bac4cb63376ad59b3dc816cffdff.woff2) format("woff2"),url(./fonts/476fe015-ab32-40a2-8fed-0a5af9a3bba4.e15319837a18b11d04994148fd733a56.woff) format("woff"),url(./fonts/d8bcfa37-4f93-49cf-8dea-c29e894af58e.535a1f100b5543ccee919c57f7ff5512.ttf) format("truetype")}@font-face{font-family:Sofia Pro Black;src:url(./fonts/fb8331b5-dfd3-496e-9a0e-8afbb5014272.d666372c41dda9a167ba21b72643d620.woff2) format("woff2"),url(./fonts/b65232b3-e982-4cd6-a8ae-4bee2ecdb90d.5310a7253b85a5291f28de5f42a720a5.woff) format("woff"),url(./fonts/2dec1b8b-9bad-4cc0-8bea-76f93ebb2331.081acda8bebc1a2fe9214be99596ddb5.ttf) format("truetype")}h1,h2,h3,h4,h5{font-family:Cervo Neue Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;margin:0}h1{font-size:5.625rem;line-height:5rem}p{font-weight:300}.button-large:not(.no-button-large),button.button-large:not(.no-button-large), button.button-large:not(.soda-shop-coming-soon-btn){display:inline-block;font-size:1em;height:2.3em;padding:.4em 1.85em;border:2px solid #fff;border-radius:1.8em;background:transparent;color:#fff;font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;text-transform:uppercase;cursor:pointer;outline:0;white-space:nowrap;overflow:hidden;-webkit-transition:background-color .1s ease-out,color .1s ease-out;transition:background-color .1s ease-out,color .1s ease-out}.button-large:not(.no-button-large) a,button.button-large:not(.no-button-large) a{color:#fff}.button-large:not(.no-button-large):hover,button.button-large:not(.no-button-large):hover,button.button-large:not(.shop-coming-soon-btn):hover {background-color:#fff;color:#0065c3;opacity:1}.button-large-active,.button-large:not(.no-button-large):hover a,button.button-large:not(.no-button-large):hover a{color:#0065c3!important}.button-large-active{background-color:#fff!important}a{text-decoration:none;color:#fff}.character,.character-under{display:block;float:left;pointer-events:none}.character-under{top:1rem;position:relative}
+
+
+
+/* ADA */
+
+
+/* ADA */
+.skip-link {
+    position: fixed;
+	top:-50px;
+	background-color: #0065c3;
+    font-size: 20px;
+    padding: 14px;
+    z-index: 999;
+	box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.103) ;
+}
+.skip-link:focus{
+	top: 0;
+}
+.video-thumb-overlay {
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	left: 0;
+	opacity:0;
+}
+.navigation__list-item {
+	/* color: #757575 !important; */
+
+}
+.navigation.active a {
+	/* color: #757575 !important; */
+}
+.better-with-pepsi-promo__video-container__video_title {
+    z-index: 99;	
+}
+.promotion__watch-now-container {
+	z-index: 9;
+	background-color: #0065c3c7;
+	padding: 7px 14px;
+}
+
+.nutrition__border {
+	background:#FFF;
+}
+
+.nutrition__table > * {
+	color:#000
+}
+
+.nutrition__ingredient {
+	color:#fff;
+	opacity: 1 !important;
+}
+
+.nutrition__lastupdated {
+	color:#fff;
+	opacity: 1 !important;
+
+}
+
+.nutrition__button {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.nutrition__table tr {
+	border:1px solid #000;
+}
+
+.nutrition__table td {
+	padding: .4em .5em !important
+}
+
+.products .nutrition__table .line3 {
+		border-bottom: 11px solid #000 !important;
+}
+
+.products .nutrition__table .line2 {
+	border-bottom: 1px solid #000 !important;
+}
+
+.products .nutrition__table .line5, .products .nutrition__table .line8 {
+	border-bottom: 5px solid #000 !important;
+}
+
+
+/* end ADA */
+
+
+
+.products .product .product__title, .products .product__hero .product__title {
+	color: #757575;
+}
+.navigation{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:5.625rem;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	//transition:all .2s ease-out;
+	z-index:400;/*4*/
+	//transition:color .5s ease 0s;
+}
+.navigation .bg{position:absolute;width:100%;height:100%;top:0;left:0;background:#0065c3;-webkit-transition:background .5s ease 0s;transition:background .5s ease 0s}
+.navigation .navigation__list{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:95%;margin:auto;padding:0;list-style:none;opacity:0}.navigation.visible .navigation__list{opacity:1}
+.navigation .navigation__list-item{float:left;margin-right:2.75rem;font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.875rem;cursor:pointer;font-weight:400;white-space:nowrap;//transition:color .5s ease 0s}
+.navigation .navigation__list-item:hover:not(.button-large):not(.button-large-alt):not(.navigation__logo){opacity:.6!important}
+.navigation .navigation__logo{text-indent:-100px;margin-right:4rem;overflow:hidden;width:60px;height:60px;background:url(../img/home/logo.png) no-repeat 0 0;background-size:cover}.navigation .navigation__product-item{//transition:color .5s ease 0s}.navigation .navigation__product-item:after{content:" ";display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;position:relative;top:-2px;margin-left:7px;width:10px;height:7px;background:url(../img/home/navigation-arrow.507f9064ac2514d24d99d36b5d4f5dde.svg) no-repeat 0 0;background-size:cover;-webkit-transition:all .5s ease 0s;transition:all .5s ease 0s}.navigation .navigation__hamburger{display:none;cursor:pointer}.navigation .navigation__buy-cta{margin:auto;margin-right:0}.navigation #icon__hamburger-bottom,.navigation #icon__hamburger-middle,.navigation #icon__hamburger-top{-webkit-transition:all .1s ease-out;transition:all .1s ease-out}.navigation #icon__hamburger-closeleft,.navigation #icon__hamburger-closeright{opacity:0;-webkit-transition:all .2s ease-out;transition:all .2s ease-out}.navigation.hamburger{background:#0065c3;color:#fff}.navigation #icon__hamburger-bottom,.navigation #icon__hamburger-closeleft,.navigation #icon__hamburger-closeright,.navigation #icon__hamburger-middle,.navigation #icon__hamburger-top{-webkit-transition:stroke .5s ease 0s;transition:stroke .5s ease 0s}.navigation.active{color:#595959;//transition:color .5s ease 0s}.navigation.active .bg{background:#fff;-webkit-transition:background 0s ease .7s;transition:background 0s ease .7s}.navigation.active a{color:#595959}.navigation.active .navigation__product-item{color:#0065c3;//transition:color .5s ease 0s}.navigation.active .navigation__product-item:after{background:url(../img/home/navigation-arrow-blue.c5b2cdb679c591e6648c823b4e272cca.svg) no-repeat 0 0;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.navigation.active #icon__hamburger-bottom,.navigation.active #icon__hamburger-closeleft,.navigation.active #icon__hamburger-closeright,.navigation.active #icon__hamburger-middle,.navigation.active #icon__hamburger-top{stroke:#595959;-webkit-transition:stroke .5s ease 0s;transition:stroke .5s ease 0s}.navigation.active .button-large{color:#0065c3;border:2px solid #0065c3;//transition:border .5s ease 0s}.navigation.active .button-large a{color:#0065c3}.navigation.active .button-large:hover{background-color:#0065c3;color:#fff!important;border:2px solid #0065c3}.navigation.active .button-large:hover a{color:#fff!important}@media (max-width:1024px){.navigation{height:6.25rem}.navigation .navigation__list{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:95%}.navigation .navigation__list-item{display:none;font-size:1rem}.navigation .navigation__product-item{margin-right:1rem!important}.navigation .navigation__logo{width:50px;height:50px}.navigation .navigation__on-mobile{display:block;margin:0}.navigation.active .navigation__product-item{color:#000}.navigation.active .navigation__product-item:after{background:url(../img/home/navigation-arrow-black.708e85975d45374a9eaf4729453a6e06.svg) no-repeat 0 0}.navigation.hamburger{position:fixed;top:0;z-index:3}.navigation.hamburger .navigation__list{margin-top:25px}.navigation.hamburger .navigation__product-item{display:none}.navigation.hamburger #icon__hamburger-bottom,.navigation.hamburger #icon__hamburger-middle,.navigation.hamburger #icon__hamburger-top{opacity:0}.navigation.hamburger #icon__hamburger-closeleft,.navigation.hamburger #icon__hamburger-closeright{opacity:1}}@media (max-width:600px){.navigation .navigation__list{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:90%}.navigation .navigation__logo{width:38px;height:38px}.navigation.hamburger .navigation__list{margin-top:31px}}.navigation-hamburger{display:none}@media (max-width:1024px){.navigation-hamburger.hamburger{display:-webkit-box;display:-ms-flexbox;display:flex;top:6.25rem;width:100%;height:calc(100vh - 6.25rem);background:#0065c3;position:fixed;z-index:3}.navigation-hamburger.hamburger .navigation__list{position:relative;top:-2rem;list-style:none;width:95%;margin:auto;padding:0}.navigation-hamburger.hamburger .navigation__list-item{font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1.5rem;cursor:pointer;white-space:nowrap;margin:2rem auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow:hidden}}@-webkit-keyframes product-image-transform{0%{-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0)}35%{-webkit-transform:translate3d(0,-24px,0);transform:translate3d(0,-24px,0)}82%{-webkit-transform:translate3d(0,1px,0);transform:translate3d(0,1px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes product-image-transform{0%{-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0)}35%{-webkit-transform:translate3d(0,-24px,0);transform:translate3d(0,-24px,0)}82%{-webkit-transform:translate3d(0,1px,0);transform:translate3d(0,1px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@-webkit-keyframes product-border{0%{border-color:hsla(45,4%,81%,0)}to{border-color:hsla(45,4%,81%,.5)}}@keyframes product-border{0%{border-color:hsla(45,4%,81%,0)}to{border-color:hsla(45,4%,81%,.5)}}@-webkit-keyframes product-title-transform{0%{-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0);opacity:0}35%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0);opacity:1}82%{-webkit-transform:translate3d(0,.2px,0);transform:translate3d(0,.2px,0);opacity:1}to{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes product-title-transform{0%{-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0);opacity:0}35%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0);opacity:1}82%{-webkit-transform:translate3d(0,.2px,0);transform:translate3d(0,.2px,0);opacity:1}to{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@-webkit-keyframes product-fade-in{0%{opacity:0}to{opacity:1}}@keyframes product-fade-in{0%{opacity:0}to{opacity:1}}@-webkit-keyframes products-wave-in{0%{fill:#0065c3}to{fill:#fff}}@keyframes products-wave-in{0%{fill:#0065c3}to{fill:#fff}}@-webkit-keyframes products-wave-offset-in{0%{background-color:#0065c3}to{background-color:#fff}}@keyframes products-wave-offset-in{0%{background-color:#0065c3}to{background-color:#fff}}@-webkit-keyframes products-wave-out{0%{fill:#fff}to{fill:#0065c3}}@keyframes products-wave-out{0%{fill:#fff}to{fill:#0065c3}}@-webkit-keyframes products-wave-offset-out{0%{background-color:#fff}to{background-color:#0065c3}}@keyframes products-wave-offset-out{0%{background-color:#fff}to{background-color:#0065c3}}.products{display:none;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;background:#fff;position:fixed;z-index:2;font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;min-height:100%!important}.products.active{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important;height:calc(100% - 90px)}.products .product__container{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;overflow:hidden;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap}.products .product__navigation-container{display:none;pointer-events:none}.products .product__navigation-container.hidden{display:none}.products .product__navigation-container svg{fill:#595959}.products .product__navigation-button{background:transparent;border:none;outline:none;cursor:pointer;height:4rem;pointer-events:all}.products .product__navigation-button:disabled{opacity:.3}.products .button-left img{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.products .product,.products .product__hero{position:relative;width:16.667%;height:13.33333vw;border:1px solid hsla(45,4%,81%,0);border-left:0;border-bottom:0;overflow:hidden;text-align:center;cursor:pointer;display:inline-block}.products .product>div,.products .product>img,.products .product>p,.products .product__hero>div,.products .product__hero>img,.products .product__hero>p{pointer-events:none}.products .product .product__hover-background,.products .product__hero .product__hover-background{position:absolute;top:0;left:0;width:100%;height:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out;-ms-flex-item-align:start;align-self:flex-start}.products .product .product__hover-background-polygon,.products .product__hero .product__hover-background-polygon{width:100%;height:100%}.products .product .product__hover,.products .product__hero .product__hover{width:100%;height:100%;top:0;position:absolute;opacity:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:50%;-webkit-transition:-webkit-transform .2s ease-out;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.products .product .product__hover-title,.products .product__hero .product__hover-title{text-transform:uppercase;font-size:1vw;opacity:0;-webkit-transition:all .4s ease-out;transition:all .4s ease-out}.products .product .product__title,.products .product__hero .product__title{font-size:.75rem;color:#595959;text-transform:uppercase;text-align:center;margin:1.5rem auto 0;opacity:0}.products .product .product__image,.products .product__hero .product__image{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0)}.products .product .product__image img,.products .product__hero .product__image img{width:40%;-o-object-fit:contain;object-fit:contain;-ms-flex-item-align:end;align-self:flex-end;margin-top:1.5rem;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.products .product__hero{width:33.33%!important;height:25vw!important;border-bottom:0}.products .product__hero .product__hover-title{font-size:2rem}.products .product__hero .product__title{font-size:1rem;margin:2rem auto 0}.products .product__hero .product__image img{margin-top:2rem}.products .product__bottom{border-bottom:1px solid hsla(45,4%,81%,.5)}.products.product-grid .product,.products.product-grid .product__hero{-webkit-animation:.5s cubic-bezier(.215,.61,.355,1) 0s forwards product-border;animation:.5s cubic-bezier(.215,.61,.355,1) 0s forwards product-border}.products.product-grid .product .product__image,.products.product-grid .product__hero .product__image{-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) 0s forwards product-image-transform;animation:.9s cubic-bezier(.455,.03,.515,.955) 0s forwards product-image-transform}.products.product-grid .product__title{-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) 0s forwards product-title-transform;animation:.9s cubic-bezier(.455,.03,.515,.955) 0s forwards product-title-transform}@media (min-width:1025px){.products .product:hover .product__hover,.products .product__hero:hover .product__hover{opacity:1;cursor:pointer}.products .product:hover .product__hover-title,.products .product__hero:hover .product__hover-title{opacity:1}.products .product:hover .product__image img,.products .product__hero:hover .product__image img{width:42%}.products .product:hover .product__hover-background,.products .product__hero:hover .product__hover-background{height:150%;-webkit-transform:scale(1.5);transform:scale(1.5)}.products .product:hover{border:0}}@media (max-width:2560px){.products .product__container-desktop{-webkit-transform:none;transform:none}.products.active{position:relative;height:auto!important}.products .product__navigation-container{top:calc(20% - 65px)}.products .product{width:25%;height:16.66667vw}}@media (max-width:768px){.products .product__container-desktop{overflow-y:hidden;width:300vw;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-transform:translateX(100vw);transform:translateX(100vw);-webkit-transition:-webkit-transform .6s ease-in-out;transition:-webkit-transform .6s ease-in-out;transition:transform .6s ease-in-out;transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out}.products .product__navigation-container{position:absolute;top:15%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:90vw;z-index:1}.products .product{width:50%;height:40vw}.products .product__hero{width:100vw!important;height:80vw!important}.products .product:hover .product__hover-title{font-size:.8rem}}@media (min-width:769px){& .product__container-desktop{-webkit-transform:none;transform:none}}.navigation .products-wave{position:absolute;top:0;left:0;width:100vw;height:100vh;overflow:hidden;visibility:hidden}.navigation .products-wave.visible{visibility:visible}.navigation .products-wave canvas{width:100vw!important;height:100vh!important;//font-size:7px;//width:192em!important;//height:108em!important}@media (orientation:portrait){.navigation canvas{width:100vh!important;height:100vh!important}}.product-detail-wave{position:absolute;top:0;left:0;width:100%;height:100%;visibility:hidden}.product-detail-wave.visible{visibility:visible}.products .productdetail__container{display:none;width:80%;height:100vh;margin:auto;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.products .productdetail__backbutton-container{display:none;position:absolute;top:1.25rem;right:1.25rem;z-index:1;padding:0}.products .productdetail__backbutton{background:transparent;outline:0;border:0;cursor:pointer;opacity:.5;-webkit-transition:opacity .33s ease 0s;transition:opacity .33s ease 0s;padding:0}.products .productdetail__backbutton:hover{opacity:1}.products .productdetail__backbutton svg path{fill:#fff}.products .nutrition__container{width:50%;max-width:30rem;height:36rem;position:relative;margin:auto;font-family:Sofia Pro Regular,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.875rem;opacity:0}.products #products__background{fill:#fff}.products .nutrition__border{border:1px solid #fff;padding:6px}.products .nutrition__table{width:100%;padding:4px;border-collapse:collapse;line-height:1}.products .nutrition__table td{padding:4px 0}.products .nutrition__table .title{font-size:38px;padding:0;padding-bottom:24px}.products .nutrition__table .subtitle,.products .nutrition__table .title{font-family:Cervo Neue Black,Helvetica Neue,Helvetica,Arial,sans-serif;text-transform:uppercase}.products .nutrition__table .subtitle{font-size:21px}.products .nutrition__table .padding4{padding-bottom:12px}.products .nutrition__table .right{text-align:right}.products .nutrition__table .indent{padding-left:1rem}.products .nutrition__table .line2{border-bottom:2px solid #fff}.products .nutrition__table .line5{border-bottom:5px solid #fff}.products .nutrition__table .line8{border-bottom:8px solid #fff}.products .nutrition__ingredients{width:100%;max-width:30rem;margin:1rem auto}.products .nutrition__ingredient{display:inline-block;text-transform:uppercase;margin:0;margin-right:.25rem;padding-bottom:1px;border-bottom:1px solid;font-size:10px;opacity:.8;color:#000;}.products .nutrition__ingredient:not(:last-child):after{content:", "}.products .nutrition__lastupdated{text-align:right;font-size:10px;margin:auto;opacity:.6}.products .nutrition__cta-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:2rem auto}.products .nutrition__button{font-size:.875rem;line-height:1.15}.products .nutrition__link{font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;text-transform:uppercase;margin-left:4rem;position:relative;top:-3px}.products .productdetail__image{width:50%;max-width:30rem;height:36rem;margin:auto;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;opacity:0;background:url(../img/home/product-shadow-10.f59551dc698276753ea1f9269cbb152e.png) no-repeat bottom;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.products .productdetail__image img{height:80%;-o-object-fit:contain;object-fit:contain;-webkit-transform-origin:50% 33%;transform-origin:50% 33%}.products .productdetail__navigation-container{display:none;width:95%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:absolute;top:calc(50% - 65px);left:2.5%;pointer-events:none;z-index:1}.products .productdetail__navigation-container svg{fill:#fff}.products .productdetail__navigation-button{background:transparent;border:none;outline:none;cursor:pointer;height:4rem;pointer-events:all;opacity:.5;-webkit-transition:opacity .33s ease 0s;transition:opacity .33s ease 0s}.products .productdetail__navigation-button:hover{opacity:1}.products .productdetail__navigation-button:disabled{opacity:.3}@media screen and (max-height:669px) and (min-width:1025px) and (orientation:landscape){.products .productdetail__container{-webkit-transform:scale(.8);transform:scale(.8)}}@media (max-width:1024px){.products .productdetail__container{width:100%;height:auto;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.products .productdetail__image{min-width:auto;height:36rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.products .productdetail__image img{-webkit-transform:scale(.8);transform:scale(.8)}.products .productdetail__navigation-container{top:16rem}.products .nutrition__container{height:auto}.products .nutrition__cta-container{margin:2rem auto}.products .nutrition__ingredients{width:100%}.products .nutrition__link{margin-left:2rem}}@media (max-width:768px){.products .nutrition__container{width:95%}.products .nutrition__table{line-height:1}.products .nutrition__table td{padding:6px 0}.products .nutrition__table .title{font-size:42px;padding-bottom:24px}.products .nutrition__table .subtitle{font-size:21px}.products .nutrition__table .padding4{padding-bottom:12px}.products .nutrition__table .right{text-align:right}.products .nutrition__table .indent{padding-left:14px}.products .nutrition__table .line2{border-bottom:2px solid #fff}.products .nutrition__table .line5{border-bottom:5px solid #fff}.products .nutrition__table .line8{border-bottom:8px solid #fff}.products .productdetail__image{height:26rem;background-size:100%}.products .productdetail__navigation-container{top:11rem}}@-webkit-keyframes animateDown{0%{-webkit-transform:translateY(0);transform:translateY(0)}to{-webkit-transform:translateY(10px);transform:translateY(10px)}}@keyframes animateDown{0%{-webkit-transform:translateY(0);transform:translateY(0)}to{-webkit-transform:translateY(10px);transform:translateY(10px)}}@-webkit-keyframes hero-word{0%{-webkit-transform:translate3d(0,1000px,0);transform:translate3d(0,1000px,0)}35%{-webkit-transform:translate3d(0,-60px,0);transform:translate3d(0,-60px,0)}82%{-webkit-transform:translate3d(0,2.3px,0);transform:translate3d(0,2.3px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes hero-word{0%{-webkit-transform:translate3d(0,1000px,0);transform:translate3d(0,1000px,0)}35%{-webkit-transform:translate3d(0,-60px,0);transform:translate3d(0,-60px,0)}82%{-webkit-transform:translate3d(0,2.3px,0);transform:translate3d(0,2.3px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@-webkit-keyframes hero-letter{0%{-webkit-transform:translate3d(0,128px,0);transform:translate3d(0,128px,0)}32%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}76%{-webkit-transform:translate3d(0,.5px,0);transform:translate3d(0,.5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes hero-letter{0%{-webkit-transform:translate3d(0,128px,0);transform:translate3d(0,128px,0)}32%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}76%{-webkit-transform:translate3d(0,.5px,0);transform:translate3d(0,.5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}
+.hero{height:100%}
+.hero .hero__content{position:absolute;z-index:1;top:0;width:100%;height:100%;min-height:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.hero .hero__content,
+.hero .hero__titles{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;text-align:center}.hero .hero__titles{width:auto;height:auto;margin:auto}
+
+@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){
+	.hero .hero__titles{margin-top:0}
+}
+.hero .hero__title{font-size:7.5rem;line-height:6.875rem;letter-spacing:-.03em;text-shadow:5px 5px 2px hsla(0,0%,50%,.1);margin:auto;margin-bottom:0;-webkit-transform:translate3d(0,1000px,0);transform:translate3d(0,1000px,0);display:block}
+.hero .hero__title,
+.hero .hero__title span{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.hero .hero__title span{-webkit-transform:translate3d(0,128px,0);transform:translate3d(0,128px,0)}
+.hero.visible .hero__titles .hero__title{-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) forwards hero-word;animation:.9s cubic-bezier(.455,.03,.515,.955) forwards hero-word}
+.hero.visible .hero__titles .hero__title span{-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) forwards hero-letter;animation:.9s cubic-bezier(.455,.03,.515,.955) forwards hero-letter}
+.hero .hero__title-nomargin{margin:0}
+.hero .hero__divider:after{content:"";position:relative;top:10rem;margin:auto;width:6rem;border-bottom:10px solid #fff;display:none;-webkit-box-sizing:border-box;box-sizing:border-box}
+.hero .hero__cta-title{font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;color:#fff;position:relative;top:-45px;-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
+.hero .hero__cta-button{position:relative;bottom:3rem;margin:0;width:auto;height:72px;cursor:pointer;border:0;padding:0;outline:0;background-color:transparent}
+.hero .hero__cta-button-bg{position:absolute;display:block;top:0;left:0;width:100%;height:100%;background:transparent url(../img/home/hero-down-arrow.ce61a28cf371a0d6a5c737cb556e6fec.svg) no-repeat bottom;-webkit-animation:.9s infinite alternate animateDown;animation:.9s infinite alternate animateDown}
+.hero .hero__video-container{width:100%;height:100%;overflow:hidden;background:#000}
+.hero .hero__video{width:100%;height:100%;-o-object-fit:cover!important;object-fit:cover!important}
+.hero .hero__video-container-alt{width:100%;height:auto;overflow:hidden;background:#000}
+.hero__video-alt{width:100%;height:100%;-o-object-fit:cover!important;object-fit:cover!important}
+.hero .hero__video-alt{display:block; width:100%;height:100%;-o-object-fit:contain!important;object-fit:contain!important}
+@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){
+	.hero .hero__video{position:absolute;z-index:0;top:50%;left:50%;height:auto;width:auto;min-width:100%;min-height:100%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-o-object-fit:cover;object-fit:cover}
+	.hero .hero__video-alt{position:absolute;z-index:0;top:50%;left:50%;height:auto;width:auto;min-width:100%;min-height:100%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-o-object-fit:contain;object-fit:contain}
+}
+@media (max-width:1024px){.hero .hero__title{font-size:5.625rem;line-height:5rem}.hero .hero__divider:after{top:6rem}.hero .hero__cta-title{font-size:1.125rem}}@media (max-width:768px) and (orientation:landscape){.hero .hero__title{margin-bottom:auto}.hero .hero__cta-button{display:none}}@media (max-width:667px) and (orientation:landscape){.hero .hero__title{font-size:3.125rem;line-height:3rem}.hero .hero__cta-button{display:none}}@media (max-width:600px){.hero .hero__divider:after{top:4rem}.hero .hero__title{font-size:3.125rem;line-height:3rem}.hero .hero__cta-title{font-size:.875rem}}@-webkit-keyframes elastic-ease-out-right{0%{-webkit-transform:translate3d(-200px,0,0);transform:translate3d(-200px,0,0)}25%{-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}62%{-webkit-transform:translate3d(-2.5px,0,0);transform:translate3d(-2.5px,0,0)}90%{-webkit-transform:translate3d(.25px,0,0);transform:translate3d(.25px,0,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes elastic-ease-out-right{0%{-webkit-transform:translate3d(-200px,0,0);transform:translate3d(-200px,0,0)}25%{-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}62%{-webkit-transform:translate3d(-2.5px,0,0);transform:translate3d(-2.5px,0,0)}90%{-webkit-transform:translate3d(.25px,0,0);transform:translate3d(.25px,0,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@-webkit-keyframes elastic-ease-out-left{0%{-webkit-transform:translate3d(200px,0,0);transform:translate3d(200px,0,0)}25%{-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}62%{-webkit-transform:translate3d(2.5px,0,0);transform:translate3d(2.5px,0,0)}90%{-webkit-transform:translate3d(-.25px,0,0);transform:translate3d(-.25px,0,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes elastic-ease-out-left{0%{-webkit-transform:translate3d(200px,0,0);transform:translate3d(200px,0,0)}25%{-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}62%{-webkit-transform:translate3d(2.5px,0,0);transform:translate3d(2.5px,0,0)}90%{-webkit-transform:translate3d(-.25px,0,0);transform:translate3d(-.25px,0,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@-webkit-keyframes linear-fade-in{0%{opacity:0}to{opacity:1}}@keyframes linear-fade-in{0%{opacity:0}to{opacity:1}}
+
+/* ----------------------------------------------------------------
+	NFL2019
+-----------------------------------------------------------------*/
+
+.nfl__wrapper {
+	position:relative;
+	width:100%;
+	height:100%;
+	line-height:0;
+	background-image:url("/en-us/uploads/images/nfl2019-bg.jpg");
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.nfl__wrapper img {
+	max-width:100%;
+	height:auto;
+}
+
+.nfl__title {
+	position:relative;
+	width:100%;
+	padding:4% 3% 0;
+}
+
+.nfl__product {
+	position:absolute;
+	left:-9.25%;
+	bottom:0;
+	width:50%;
+	z-index:200;
+}
+.nfl__player {
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:40%;
+	text-align: right;
+	z-index:100;	
+}
+.nfl__player img {
+	margin-right:3%;
+}
+.nfl__video {
+	position:relative;
+}
+
+
+
+.nfl__logos {
+	position:relative;
+	width: 100%;
+	margin-left:3%;
+	margin-top:2rem;
+}
+
+.nfl__logos img {max-width: 15rem;}
+
+@media (min-width:768px){
+	.nfl__title {
+		position:relative;
+		/*
+		top:0;
+		left:0;
+		bottom:0;
+		*/
+		width:70%;
+		padding:4% 3% 0;
+		/*
+		z-index:300;
+		*/
+		background-color: rgba(255,0,4,0);
+	}	
+	.nfl__video {
+		position:absolute;
+		left: 50%;
+		bottom:150px;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		z-index:250;	
+	}
+	.nfl__player {
+		position:absolute;
+		right:0;
+		bottom:0;
+		width:40%;
+		max-height: 700px;
+		z-index:100;
+		background-color: rgba(255,0,4,0);
+	}
+	.nfl__logos {
+		position:absolute;
+		width: 100%;
+		bottom: 40px;
+		text-align: center;
+		margin:0;
+		
+		/*
+		left: 50%;
+		bottom:40px;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		*/
+		z-index:250;	
+	}	
+}
+
+@media (min-width:1080px){
+	/*.nfl__title {width:60%;}*/
+	.nfl__wrapper .nfl__title img {
+		max-width:1200px;
+		height:auto;
+	}	
+	.nfl__player {width:40%; max-height: 800px;}	
+	.nfl__video {
+
+	}
+	.nfl__logos {
+	
+	}	
+}
+
+
+
+
+
+.nfl__video p {line-height: 1.15;}
+.nfl__video .nfl-video-wrapper>.promotion__video{width:100%; height:8rem;}
+.nfl__video .promotion__video>*{pointer-events:none}
+.nfl__video .promotion__video .promotion__video-cta{font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.875rem;z-index:1;margin:0}
+.nfl__video .promotion__video .promotion__video-button{width:3.5rem;height:3.5rem;z-index:1;background:transparent;border:none;outline:none;pointer-events:none}
+.nfl__video .promotion__video img{position:absolute;top:0;left:0;width:100%;-o-object-fit:cover;object-fit:cover}
+.nfl__video .promotion__button_container{position:relative;margin-top:1em;min-width:16rem}
+.nfl__video .promotion__button_container a,
+.nfl__video .promotion__button_container button{font-size:.875rem;line-height:1.15}
+.nfl__video .promotion__button_container a:first-of-type,
+.nfl__video .promotion__button_container button:first-of-type{margin-right:1rem}
+
+@media (max-width:1124px){
+	.nfl__video .promotion__title{font-size:2.5rem}
+	.nfl__video .promotion__body{font-size:.85em}
+}
+
+@media (max-width:900px){
+	/*
+	.nfl__video{min-height:30rem}
+	.nfl__video .promotion__container{//width:90%}
+	*/
+	.nfl__video .promotion__title{font-size:2.125rem}
+	.nfl__video .promotion__body{width:100%}
+}
+
+.nfl-video-wrapper {width:15rem;}
+
+@media (max-width:500px){
+	.nfl-video-wrapper {width:12rem;}
+	.nfl__logos {margin-top:1rem;}
+	.nfl__logos img {max-width: 10rem;}
+}
+
+@media (min-width:768px){
+	.promotion .nfl__video>.nfl-video-wrapper .promotion__video {height:8rem;}
+}
+
+@media (min-width:1080px){
+	.promotion .nfl__video>.nfl-video-wrapper .promotion__video {height:15rem;}
+	.nfl-video-wrapper {width:15rem;}
+}
+@media (min-width:1080px){
+	.nfl-video-wrapper {width:25rem;}
+	.nfl__video .promotion__video{width:100%; height:14rem;}
+	.nfl__logos img {max-width: 100%;}
+}
+
+@media (max-width:767px){
+	.nfl-video-wrapper {margin:0 auto;}
+}
+
+
+
+
+
+.promotion{background-repeat:no-repeat;background-size:cover;background-position:50%;position:relative}
+
+.promotion.flavors-section {background-color: #0065c3; background-image: url("/en-us/uploads/images/flavors-bg-bottom.png");background-position: bottom left;background-size: contain;background-repeat: no-repeat;}
+.promotion .flavors-wrapper {height:100%; width:100%; background-image: url("/en-us/uploads/images/flavors-bg-top.png");background-position: -150px -580px;background-size:auto 120%;background-repeat: no-repeat;}
+
+@media (max-height:900px){
+	.promotion .flavors-wrapper {background-position: -150px -420px;background-size:auto 120%;}
+}
+
+@media (max-width:1024px){
+	.bg-pos-tl-m{background-repeat:no-repeat;background-size:100% auto;background-position:0 0;position:relative}
+}
+
+@media (max-width:767px){
+	.promotion .flavors-wrapper	{background-position: -180px -520px;background-size:auto 100%}
+}
+
+@media (max-width:599px){
+	.promotion .flavors-wrapper	{background-position: -100px -280px;background-size:auto 60%}
+}
+
+@media (min-width:1600px){
+	.promotion .flavors-wrapper	{background-position: 20% 125%;background-size:auto 180%}
+}
+
+.promotion .promotion__container{width:80%;height:80%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:relative}
+.promotion .flavors-wrapper .promotion__container {height:100%;margin:0 auto;}
+.promotion .promotion__left{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}
+.promotion .promotion__right{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
+.promotion .promotion__right .promotion__container2{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;text-align:left}
+
+.promotion.fly-in .promotion__right .promotion__body,
+.promotion.fly-in .promotion__right .promotion__button_container,
+.promotion.fly-in .promotion__right .promotion__title,
+.promotion.fly-in .promotion__right .promotion__video {
+	-webkit-transform:translate3d(-200px,0,0);
+	transform:translate3d(-200px,0,0);
+	opacity:0
+}
+.promotion.fly-in .promotion__left .promotion__body,
+.promotion.fly-in .promotion__left .promotion__button_container,
+.promotion.fly-in .promotion__left .promotion__title,
+.promotion.fly-in .promotion__left .promotion__video,
+.promotion.fly-in .promotion__right .promotion__container1,
+.promotion.fly-in .nfl__title,
+.promotion.fly-in .nfl__video>.nfl-video-wrapper .promotion__video,
+.promotion.fly-in .nfl__logos {
+	-webkit-transform:translate3d(200px,0,0);
+	transform:translate3d(200px,0,0);
+	opacity:0
+}
+.promotion.fly-in .promotion__left .promotion__container1 {
+	-webkit-transform:translate3d(-200px,0,0);
+	transform:translate3d(-200px,0,0);
+	opacity:0
+}
+.promotion.fly-in.visible .promotion__right .promotion__body,
+.promotion.fly-in.visible .promotion__right .promotion__button_container,
+.promotion.fly-in.visible .promotion__right .promotion__title,
+.promotion.fly-in.visible .promotion__right .promotion__video{
+	-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-right,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in;animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-right,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in
+}
+.promotion.fly-in.visible .promotion__right .promotion__container1{
+	-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-left,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in;animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-left,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in
+}
+.promotion.fly-in.visible .promotion__right .promotion__title{-webkit-animation-delay:.6s,.6s;animation-delay:.6s,.6s}
+.promotion.fly-in.visible .promotion__right .promotion__body{-webkit-animation-delay:.7s,.7s;animation-delay:.7s,.7s}
+.promotion.fly-in.visible .promotion__right .promotion__video{-webkit-animation-delay:.8s,.8s;animation-delay:.8s,.8s}
+.promotion.fly-in.visible .promotion__right .promotion__button_container {
+	-webkit-animation-delay:.9s,.9s;animation-delay:.9s,.9s
+}
+.promotion.fly-in.visible .promotion__left .promotion__body,
+.promotion.fly-in.visible .promotion__left .promotion__button_container,
+.promotion.fly-in.visible .promotion__left .promotion__title,
+.promotion.fly-in.visible .promotion__left .promotion__video,
+.promotion.fly-in .nfl__title,
+.promotion.fly-in .nfl__video>.nfl-video-wrapper .promotion__video,
+.promotion.fly-in .nfl__logos{
+	-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-left,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in;animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-left,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in
+}
+.promotion.fly-in.visible .promotion__left .promotion__container1{
+	-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-right,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in;animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-right,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in
+}
+.promotion.fly-in.visible .promotion__left .promotion__title,
+.promotion.fly-in .nfl__title{-webkit-animation-delay:.6s,.6s;animation-delay:.6s,.6s}
+.promotion.fly-in.visible .promotion__left .promotion__body{-webkit-animation-delay:.7s,.7s;animation-delay:.7s,.7s}
+.promotion.fly-in.visible .promotion__left .promotion__video,
+.promotion.fly-in .nfl__video>.nfl-video-wrapper .promotion__video{-webkit-animation-delay:.8s,.8s;animation-delay:.8s,.8s}
+.promotion.fly-in.visible .promotion__left .promotion__button_container,.promotion.fly-in .nfl__logos{-webkit-animation-delay:.9s,.9s;animation-delay:.9s,.9s}
+
+.promotion .promotion__container1,
+.promotion .flavors-wrapper .promotion__container1{width:47.5%;height:80%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-filter:drop-shadow(1rem 1rem 1.5rem rgba(0,0,0,.5));filter:drop-shadow(1rem 1rem 1.5rem rgba(0,0,0,.5));position:relative}
+.promotion .promotion__container1 .promotion__hero-image,
+.promotion .flavors-wrapper .promotion__container1 .promotion__hero-image {max-width:100%;width:auto;max-height:100%;height:auto;-o-object-fit:contain;object-fit:contain;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}
+.promotion .promotion__hero-image-mobile{display:none}
+.promotion .promotion__container2,
+.promotion .flavors-wrapper .promotion__container2{width:47.5%;height:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative}
+.promotion .promotion__title{font-size:3.75rem;line-height:1em;width:100%;//transition:all .2s ease-out;position:relative}
+.promotion .flavors-wrapper .promotion__title{width:100%; height:auto;//transition:all .2s ease-out;position:relative}
+.promotion .promotion__title__image{height:auto;margin-bottom:.2em}
+.promotion .promotion__title__line{display:block}
+.promotion .promotion__title__line em.deco1{font-style:normal; color:#d7e343;}
+.promotion .promotion__title__line em.deco2{font-style:normal; color:#fcba42;}
+.promotion .promotion__title__line em.deco3{font-style:normal; color:#f73775;}
+	.flavors-img-copy {height:auto; max-width:100%; margin-top:0;}
+
+@media (max-width:1124px){
+	.promotion__title__line__image { max-height: 34px; width: auto;}
+	.flavors-img-copy {height:auto!important; max-width:100%; margin-top: 0;}
+	.text-center-m {text-align:left !important;}
+}
+@media (max-width:947px){
+	.flavors-img-copy {max-width:70%; margin-top: 0;}
+}
+@media (max-height:800px){
+	.flavors-img-copy {margin-top: 0;}
+}
+
+.promotion .promotion__body{width:80%;margin:1em 0;line-height:1.25;position:relative}
+@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){
+	.promotion .promotion__body{padding-bottom:3rem}}
+.promotion .promotion__video{position:relative;width:15rem;height:8rem;min-height:8rem;margin:1em 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;cursor:pointer}
+.promotion .flavors-video-wrapper>.promotion__video,
+.promotion :not(.nfl__video)>.nfl-video-wrapper .promotion__video {width:100%; height:8rem;}
+.promotion .promotion__video>*{pointer-events:none}
+.promotion .promotion__video .promotion__video-cta{font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.875rem;z-index:1;margin:0}
+.promotion .promotion__video .promotion__video-button{width:3.5rem;height:3.5rem;z-index:1;background:transparent;border:none;outline:none;pointer-events:none}
+.promotion .promotion__video img{position:absolute;top:0;left:0;width:100%;-o-object-fit:cover;object-fit:cover}
+.promotion .promotion__button_container{position:relative;margin-top:1em;min-width:16rem}
+.promotion .promotion__button_container a,
+.promotion .promotion__button_container button{font-size:.875rem;line-height:1.15}
+.promotion .promotion__button_container a:first-of-type,
+.promotion .promotion__button_container button:first-of-type{margin-right:1rem}
+@media (max-width:1124px){
+	.promotion .promotion__title{font-size:2.5rem}
+	.promotion .promotion__body{font-size:.85em}
+}
+@media (max-width:900px){
+	.promotion:not(#nfl2021):not(#nfl2020):not(#stayingin):not(#pepsi_zero-sugar):not(#pepsi-mango):not(#pepsi-blue):not(#better-with-pepsi):not(#pepsi-soda-shop):not(#pepsi-halftime){min-height:30rem}
+	/*.promotion .promotion__container{//width:90%}*/
+	.promotion .promotion__title{font-size:2.125rem}
+	.promotion .promotion__body{width:100%}
+}
+
+.flavors-video-wrapper {width:15rem; margin-left:0; margin-right:auto;}
+@media (min-width:1080px){
+	.flavors-video-wrapper {width:30rem;}
+	.promotion .flavors-video-wrapper>.promotion__video{width:100%; height:17rem;}
+}
+@media (orientation:portrait){
+	.promotion:not(#nfl2021):not(#nfl2020):not(#pepsi_twil):not(#stayingin):not(#pepsi-cherry):not(#pepsi_zero-sugar):not(#pepsi-mango):not(#pepsi-blue):not(#better-with-pepsi):not(#pepsi-soda-shop):not(#pepsi-halftime){min-height:56rem}
+	/*#nfl2019.promotion{min-height:100% !important;}*/
+	.promotion .promotion__container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%;height:90%}
+	.promotion .promotion__container1,
+	.promotion .promotion__container2{width:80%!important;height:50%!important;text-align:center!important}
+	.promotion .flavors-wrapper .promotion__container1{width:80%!important;height:50%!important;text-align:center!important}
+	.promotion .flavors-wrapper .promotion__container2{width:80%!important;height:50%!important;text-align:left!important}
+	.promotion .flavors-wrapper .promotion__container2{justify-content:flex-start;}
+	/*.promotion .flavors-wrapper .promotion__container2{width:80%!important;height:auto!important;text-align:left!important}*/
+	.promotion .promotion__container2{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important;max-width:460px}
+	
+	
+	.promotion .promotion__title__image{margin-bottom:1em}
+	.promotion .promotion__body,.promotion .promotion__button_container,.promotion .promotion__video{margin:1em 0}
+	.promotion .promotion__body{width:100%}
+	.promotion .promotion__button_container button:first-of-type{margin-right:auto}
+	.promotion .promotion__hero-image{height:100%;display:none;bottom:auto}
+	.promotion .promotion__hero-image-mobile{display:block;width:auto}
+	.promotion .flavors-video-wrapper>.promotion__video/*.,
+	promotion .nfl__video>.nfl-video-wrapper .promotion__video*/{width:15rem;}
+}
+@media (max-width:500px){
+	.promotion .nfl__video>.nfl-video-wrapper .promotion__video{width:12rem;}
+}
+
+@media (max-height:800px){
+	.promotion .flavors-video-wrapper>.promotion__video/*,
+	.promotion .nfl__video>.nfl-video-wrapper .promotion__video*/{width:15rem; height:8rem;}
+}
+
+
+@media screen and (orientation:landscape) and (max-height: 850px) {
+	.nfl__title {width:50%;}
+	.nfl__logos {bottom: 20px;}
+	.nfl__logos img {max-width: 10rem;}
+	.nfl__video {bottom:15%;}	
+	.nfl-video-wrapper {width:15rem;}
+	.nfl__video .promotion__video{height:12rem;}
+	.nfl__player {max-height: 500px;}
+	
+}
+
+
+
+/* ----------------------------------------------------------------
+	STAYING IN
+-----------------------------------------------------------------*/
+.promotion {
+	min-height: 33rem;
+}
+
+.pepsi-stayingin-promo {
+	text-align: center;
+	background-image: url(https://www.pepsi.com/en-us/uploads/images/stay-in/background-m.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 580px;
+}
+
+.pepsi-stayingin-promo .stayingin__logo {
+	width: 92px;
+}
+
+.pepsi-stayingin-promo .stayingin__headers {
+	width: 284px;
+    margin: 0 auto;
+}
+
+.pepsi-stayingin-promo h1 {
+	font-size: 30px;
+	line-height: 3rem;
+	text-transform: uppercase;
+	
+}
+.pepsi-stayingin-promo h2 {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.pepsi-stayingin-promo .stayingin__hash {
+	display: inline-block;
+	margin: 10px auto 0;
+	font-size: 14px;
+	padding: .5rem 1rem;
+	border-radius: 39px;
+	background-color: rgba(255,255,255,0.24);
+	font-family:Cervo Neue Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.pepsi-stayingin-promo .stayingin__offer-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 413px;
+	margin: 14px auto 0;
+	font-family:Cervo Neue Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.pepsi-stayingin-promo .stayingin__offer {
+	display: flex;
+	align-items: center;
+	background-color: #1d68a7;
+	margin: .25rem .5rem;
+	width: 100%;
+	min-width: 298px;
+	height: 61px;
+	border-radius: 11px;
+	box-shadow: 0 1px 0 0 #ffffff;
+	font-size: 12px;
+	text-align: left;
+}
+
+.pepsi-stayingin-promo .stayingin__offer-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 65px;
+	height: 84%;
+	margin: 0 1rem;
+}
+
+.pepsi-stayingin-promo .stayingin__offer img {
+	width: 100%;
+	height: auto;
+}
+
+.pepsi-stayingin-promo .stayingin__offer-img--lc img {
+	width: auto;
+	height: 100%;
+}
+
+.pepsi-stayingin-promo .stayingin__offer-img--uber img {
+	width: 78%;
+}
+
+.pepsi-stayingin-promo .stayingin__disc {
+	font-size: 10px;
+}
+
+@media (min-width:768px) {
+	.pepsi-stayingin-promo {
+		min-height: 900px;
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/stay-in/background.png);
+	}
+
+	.pepsi-stayingin-promo .stayingin__logo {
+		width: 158px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__headers {
+		width: 600px;
+	}
+
+	.pepsi-stayingin-promo h1 {
+		font-size: 56px;
+		line-height: 6rem;
+	}
+	.pepsi-stayingin-promo h2 {
+		font-size: 23px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__offer-container {
+		max-width: 1024px;
+		margin-top: 62px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__offer {
+		width: 425px;
+		height: 95px;
+		font-size: 14px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__offer-img {
+		width: 93px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__disc {
+		font-size: 12px;
+	}
+}
+
+@media (min-width:1280px) {
+	.pepsi-stayingin-promo {
+		min-height: 750px;
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/stay-in/background.png);
+	}
+
+	.pepsi-stayingin-promo .stayingin__logo {
+		width: 198px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__headers {
+		width: 645px;
+	}
+
+	.pepsi-stayingin-promo h1 {
+		font-size: 68px;
+	}
+	.pepsi-stayingin-promo h2 {
+		font-size: 28px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__offer {
+		width: 472px;
+		height: 105px;
+		font-size: 16px;
+	}
+
+	.pepsi-stayingin-promo .stayingin__offer-img {
+		width: 101px;
+	}
+}
+
+
+@media screen and (orientation:portrait) and (min-width:768px) {
+	.pepsi-stayingin-promo {
+		min-height: 800px;
+	}
+	.pepsi-stayingin-promo .stayingin__offer-container {
+		max-width: 767px;
+	}
+}
+
+
+
+/* ----------------------------------------------------------------
+	TWIL
+-----------------------------------------------------------------*/
+
+.promotion.pepsi-twil-promo .promotion__container{width:100%;height:80%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:relative; text-align: center;}
+
+.promotion.pepsi-twil-promo .promotion__container1{width:55%;height:90%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-filter:drop-shadow(1rem 1rem 1.5rem rgba(0,0,0,.5));filter:drop-shadow(1rem 1rem 1.5rem rgba(0,0,0,.5));position:relative}
+
+.promotion.pepsi-twil-promo .promotion__container2{width:35%;height:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative}
+
+
+/* ----------------------------------------------------------------
+	NFL 2020
+-----------------------------------------------------------------*/
+.nfl2020-promo {
+	position: relative;
+	background: url(https://www.pepsi.com/en-us/uploads/images/nfl2020_background.png) no-repeat;
+	background-size: 1380px;
+    background-position: right -185px top -32px;
+	height: 680px;
+}
+
+.nfl2020-promo__logo {
+	position: absolute;
+	width: 250px;
+	top: 38px;
+	left: 25px;
+
+}
+
+.nfl2020-promo h2 {
+	font-size: 0px;
+	text-transform: uppercase;
+	display: inline-block;
+	position: absolute;
+	top: 90px;
+    left: 24px;
+	width: 86%;
+	max-width: 356px;
+	height: 100%;
+	background: url(https://www.pepsi.com/en-us/uploads/images/nfl2020_headline.png) no-repeat;
+	background-size: contain;
+}
+
+.nfl2020-promo .hero__video-containe {
+	position: absolute;
+	margin-top: 20px;
+	left: 25px;
+	z-index: 3;
+	width: 260px;
+	height: 148px;
+}
+
+.nfl2020-promo__cans {
+	position: absolute;
+	right: -10px;
+	bottom: -45px;
+	max-width: 390px;
+}
+
+
+.nfl2020-promo__cans img, .nfl2020-promo__logo img, .nfl2020-promo .hero__video-containe img {
+	width: 100%;
+}
+
+.hero__video-containe .youtube-vid {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+@media (max-width:767px) and (orientation:landscape) {
+	.nfl2020-promo {
+		background-size: 239%;
+	}
+	.nfl2020-promo .hero__video-containe {
+		bottom: 20%;
+	}
+	.nfl2020-promo__cans {
+		width: 60%;
+	}
+}
+
+@media (min-width:768px) {
+	.nfl2020-promo {
+		height: 950px;
+		background-size: 2662px;
+		background-position: right -364px top -96px;
+	}
+	.nfl2020-promo__logo {
+		top: 57px;
+		left: 54px;
+		width: 385px;
+	}
+
+	.nfl2020-promo h2 {
+		position: absolute;
+		top: 121px;
+		left: 54px;
+		width: 64%;
+		max-width: 520px;
+	}
+
+	.nfl2020-promo .hero__video-containe {
+		width: 337px;
+		height: 180px;
+		left: 54px;
+		margin-top: 20px;
+	}
+
+	.nfl2020-promo__cans {
+		position: absolute;
+		right: -17px;
+		bottom: -86px;
+		width: 80%;
+		max-width: 759px;
+	}
+}
+
+@media (min-width:1024px) {
+	@media (orientation:landscape) {
+		.nfl2020-promo {
+			background-size: 2200px;
+		}
+	}
+
+	.nfl2020-promo {
+		position: relative;
+		height: 100%;
+		min-height: 700px;
+		max-height: 980px;
+		background-position: right -102px top -86px;
+	}
+
+	.nfl2020-promo h2 {
+		top: 128px;
+		left: 59px;
+	}
+
+	.nfl2020-promo__cans {
+		position: absolute;
+		right: -17px;
+		bottom: -86px;
+		width: 60%;
+		max-width: 950px;
+	}
+
+	.nfl2020-promo .hero__video-containe {
+		width: 428px;
+		height: 243px;
+		left: 59px;
+		top: 414px
+	}
+}
+
+@media (min-width:1200px) {
+	.nfl2020-promo {
+		background-size: 200%;
+		background-position: right 20% top 36%;
+
+	}
+
+	.nfl2020-promo h2 {
+		left: 95px;
+		width: 49%;
+		max-width: 580px;
+	}
+
+	.nfl2020-promo__logo, .nfl2020-promo .hero__video-containe {
+		left: 95px;
+	}
+
+	.nfl2020-promo .hero__video-containe {
+		width: 516px;
+		height: 285px;
+		bottom: 35px;
+	}
+}
+
+@media (min-width:1920px) {
+	.nfl2020-promo {
+		height: 980px;
+
+	}
+	.nfl2020-promo h2 {
+		max-width: 961px;
+	}
+
+	.nfl2020-promo .hero__video-containe {
+		top: 602px;
+	}
+
+}
+
+@media (min-width:2500px) {
+	.nfl2020-promo__logo {
+		top: 149px;
+		width: 23%;
+	}
+
+	.nfl2020-promo h2 {
+		width: 30%;
+		max-width: unset;
+		top: 271px;
+	}
+	.nfl2020-promo .hero__video-containe {
+		position: absolute;
+		/* width: 25%; */
+		left: 39%;
+		top: 270px;
+	}
+}
+
+
+
+/* ----------------------------------------------------------------
+	NFL 2021
+-----------------------------------------------------------------*/
+.nfl2021-promo {
+	background-color: #000;
+	height: 468px;
+	min-height: unset;
+	flex-direction: column;
+}
+
+.nfl2021-promo__mobile-container {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.nfl2021-promo__mobile-container--top {
+	height: 190px;
+	background: url(https://www.pepsi.com/en-us/uploads/images/bg-1-mobile-tablet.png) no-repeat, url(https://www.pepsi.com/en-us/uploads/images/bg-2-mobile-tablet.png) no-repeat;
+	background-position: top center, bottom center;
+	background-size: 100%;
+}
+
+.nfl2021-promo__mobile-container--top img {
+	width: 92px;
+	height: 4.1px;
+	display: block;
+	margin: 2px auto 0;
+}
+
+.nfl2021-promo__mobile-container--top > img {
+	position: absolute;
+	width: 90px;
+	height: 126.5px;
+	margin: 17px auto 0;
+	left: -148px;
+	right: 0;
+}
+
+.nfl2021-promo__mobile-container--middle {
+	height: 116px;
+	background: url(https://www.pepsi.com/en-us/uploads/images/bg-3-mobile-tablet@3x.png) no-repeat;
+	background-size: auto 22px;
+	background-position: center center;
+}
+.nfl2021-promo__video {
+	margin: 0 auto;
+	width: 206px;
+	height: 116px;
+}
+
+.nfl2021-promo__video iframe {
+	width: 100%;
+	height: 100%;
+}
+
+
+.nfl2021-promo__mobile-container--bottom {
+	height: 162px;
+	background: url(https://www.pepsi.com/en-us/uploads/images/bg-4-mobile-tablet@2x.png) no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+}
+
+.nfl2021-promo__mobile-container--bottom img {
+	display: block;
+	width: 72px;
+	height: 101px;
+	margin: 0 auto;
+	margin-top: 22px;
+}
+
+.nfl2021-promo__text {
+	position: absolute;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 39px;
+    right: -148px;
+    left: 0;
+    text-align: center;
+}
+
+.nfl2021-promo__text h2 {
+	font-weight: bold;
+	font-size: 12.8px;
+	color: transparent;
+	background: url(https://www.pepsi.com/en-us/uploads/images/headline.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.nfl2021-promo__text h3 {
+	font-size: 9px;
+	margin-top: 10.1px;
+	font-weight: bold;
+}
+
+.nfl2021-promo__desktop-container {
+	display: none;
+	height: 100%;
+	width: 50%;
+
+}
+
+.nfl2021-promo__desktop-container--left {
+	background: url(https://www.pepsi.com/en-us/uploads/images/) no-repeat;
+	background-size: 100%;
+	background-position: center left;
+}
+
+.nfl2021-promo__desktop-container--right {	
+	background: url(https://www.pepsi.com/en-us/uploads/images/bg-2-desktop@3x.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media(min-width: 375px) {
+	.nfl2021-promo {
+		height: 731px;
+	}
+	.nfl2021-promo__text {
+		width: 146px;
+		height: 71px;
+		margin-top: 76px;
+	}
+	.nfl2021-promo__text h2 {
+		font-size: 15.5px;
+		width: 146px;
+		height: 71px;
+	}
+
+	.nfl2021-promo__text h3 {
+		font-size: 11.1px;
+	}
+
+	.nfl2021-promo__mobile-container--top {
+		height: 286px;
+	}
+
+	.nfl2021-promo__mobile-container--top > img {
+		width: 122px;
+		height: 171px;
+		margin-top: 43px;
+		left: -156px;
+	}
+
+	.nfl2021-promo__text img {
+		width: 114px;
+		height: 5.3px;
+	}
+
+	.nfl2021-promo__mobile-container--middle {
+		background-size: auto 32px;
+		height: 179px;
+	}
+
+	.nfl2021-promo__video {
+		width: 318px;
+		height: 179px;
+	}
+
+	.nfl2021-promo__mobile-container--bottom {
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/bg-4-mobile-tablet@2x.png);
+		height: 267px;
+	}
+
+	.nfl2021-promo__mobile-container--bottom img {
+		width: 122px;
+		height: 171px;
+		margin-top: 36px;
+	}
+
+}
+
+@media(min-width: 550px) {
+	.nfl2021-promo__mobile-container--top {
+		background-position: top -50px center, bottom, center;
+	}
+}
+
+@media(min-width: 768px) {
+	.nfl2021-promo {
+		height: 924px;
+	}
+
+	.nfl2021-promo__mobile-container--top {
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/bg-1-mobile-tablet@3x.png), url(https://www.pepsi.com/en-us/uploads/images/bg-2-mobile-tablet@3x.png);
+		height: 374px;
+	}
+
+	.nfl2021-promo__mobile-container--top > img {
+		width: 168px;
+		height: 235px;
+		margin-top: 43px;
+		left: -237px;
+	}
+
+	.nfl2021-promo__mobile-container--middle {
+		height: 230px;
+		background-size: auto 38px;
+		
+	}
+	.nfl2021-promo__video {
+		width: 408px;
+		height: 230px;
+	}
+	.nfl2021-promo__mobile-container--bottom {
+		height: 320px;
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/bg-4-mobile-tablet@3x.png);
+
+	}
+
+	.nfl2021-promo__mobile-container--bottom img {
+		width: 168px;
+		height: 235px;
+		margin-top: 41px; 
+	}
+
+	.nfl2021-promo__text {
+		width: 226px;
+		height: 110px;
+		right: -213px;
+		margin-top: 81.4px;
+	}
+
+	.nfl2021-promo__text h2 {
+		font-size: 24px;
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/headline@3x.png);
+		width: 226px;
+		height: 110px;
+	}
+
+	.nfl2021-promo__text h3 {
+		font-size: 17.3px;
+		margin-top: 18.1px;
+	}
+
+	.nfl2021-promo__text img {
+		width: 176px;
+		height: 8.1px;
+	}
+}
+
+@media(min-width: 1024px) {
+	.nfl2021-promo {
+		height: 668px;
+		flex-direction: row;
+		
+	}
+
+	.nfl2021-promo__mobile-container {
+		display: none;
+
+	}
+	.nfl2021-promo__desktop-container {
+		display: block;
+		position: relative;
+		
+	}
+	.nfl2021-promo__desktop-container--left {
+		background: url(https://www.pepsi.com/en-us/uploads/images/bg-1-desktop@3x.png) no-repeat;
+		background-position: left center;
+		background-size: 73px auto;
+		padding-left: 73px;
+	}
+
+	.nfl2021-promo__info-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 41px;
+	}
+
+	.nfl2021-promo__info-container > img {
+		width: 160px;
+		height: auto;
+		display: block;
+		margin: 0 30px 0;
+	}
+
+
+	.nfl2021-promo__text {
+		position: relative;
+		width: 124px;
+		margin: 0 30px 0;
+	}
+
+	.nfl2021-promo__text h2 {
+		font-size: 13.3px;
+		width: 124px;
+		height: 60px
+	}
+
+	.nfl2021-promo__text h3 {
+		font-size: 9.4px;
+	}
+
+	.nfl2021-promo__text img {
+		width: 97px;
+		height: 4.1px;
+	}
+
+	.nfl2021-promo__video {
+		width: 90%;
+		min-height: 215px;
+		left: 0px;
+		right: -213px;
+		margin: 86px auto 0;
+	}
+
+	.nfl2021-promo__desktop-container--left {
+		flex-grow: 1;
+	}
+
+	.nfl2021-promo__desktop-container--right {
+		background-position: left center;
+	}
+}
+
+@media(min-width: 1366px) {
+
+
+	.nfl2021-promo__text h2 {
+		font-size: 14.8px;
+		width: 138px;
+		height: 67px;
+	}
+
+	.nfl2021-promo__text h3 {
+		font-size: 10.6px;
+	}
+
+	.nfl2021-promo__desktop-container--left {
+		background-position: left 32px center;
+		background-size: 95px auto;
+		padding-left: 131px;
+	}
+
+	.nfl2021-promo__desktop-container--right {
+		background-position: right center;
+	}
+
+	.nfl2021-promo__info-container img {
+		width: 200px;
+	}
+
+	.nfl2021-promo__text img {
+		width: 109px;
+		height: auto;
+	}
+
+	.nfl2021-promo__text {
+		width: 138px;
+		margin-top: 58px;
+	}
+
+	.nfl2021-promo__video {
+		height: 250px;
+		margin-top: 38px;
+	}
+
+}
+
+@media(min-width: 1920px) {
+	.nfl2021-promo {
+		height: 968px;
+	}
+
+	.nfl2021-promo__desktop-container--left {
+		background-position: left 13px center;
+		background-size: 132px auto;
+		padding-left: 145px;
+	}
+	
+	.nfl2021-promo__info-container > img {
+		width: 250px;
+	}
+
+	.nfl2021-promo__text {
+		width: 192px;
+	}
+
+	.nfl2021-promo__text h2 {
+		font-size: 20.5px;
+		width: 192px;
+		height: 94px;
+	}
+
+	.nfl2021-promo__text h3 {
+		font-size: 14.6px;
+	}
+
+	.nfl2021-promo__video {
+		height: 400px;
+		margin-top: 103.7px;
+	}
+
+	.nfl2021-promo__text img {
+		width: 149px;
+		height: auto;
+	}
+
+	.nfl2021-promo__desktop-container--right {
+		background-position: left center;
+	}
+}	
+
+@media(min-width: 2560px) {
+	.nfl2021-promo {
+		height: 900px;
+	}
+
+	.nfl2021-promo__desktop-container--left {
+		background-position: left 170px center;
+		padding-left: 305px;
+	}
+
+	.nfl2021-promo__info-container img{
+		width: 230px;
+	}
+
+
+	.nfl2021-promo__text h2 {
+		font-size: 20.5px;
+	}
+
+	.nfl2021-promo__text h3 {
+		font-size: 14.6px;
+	}
+
+	.nfl2021-promo__video {
+		margin-top: 50px;
+		height: 430px;
+	}
+
+	.nfl2021-promo__text img {
+		width: 149px;
+		height: auto;
+	}
+
+	.nfl2021-promo__desktop-container--right {
+		background-position: left center;
+		width: 45%;
+	}
+}	
+/* ----------------------------------------------------------------
+	Pepsi Cherry
+-----------------------------------------------------------------*/
+.pepsi-cherry-promo {
+	display: block;
+	position: relative;
+	background: url(../uploads/images/wild-cherry-kv-bg.png) no-repeat;
+	background-position: top center;
+	background-size: cover;
+	height: 568px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.pepsi-cherry-promo__logo {
+	width: 207px;
+	height: 165px;
+	margin: 20px auto 0;
+
+}
+
+.pepsi-cherry-promo__logo-wide {
+ display: none;
+}
+
+.pepsi-cherry-promo h2 {
+	width: 246px;
+	height: 40px;
+	font-family: PepsiFizz;
+	font-size: 0px;
+	font-weight: 900;
+	display: block;
+	margin: 7px auto 0;
+	text-align: center;
+	background: url(https://www.pepsi.com/en-us/uploads/images/headline-mobile.png) no-repeat;
+	background-size: contain;
+}
+
+.pepsi-cherry-promo__app-cta {
+	display: none;
+}
+
+.pepsi-cherry-promo__fox-lockup-m {
+	width: 171.2px;
+	height: 22.1px;
+	margin: 6px auto 0;
+	line-height: 1.07;
+	z-index: 2;
+}
+
+.pepsi-cherry-promo__fox-lockup {
+	display: none;
+}
+
+.pepsi-cherry-promo__video {
+	position: relative;
+	width: 171px;
+	height: 97px;
+	margin: 10px auto 0;
+	z-index: 2;
+}
+
+.pepsi-cherry-promo__video iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.pepsi-cherry-promo p {
+	position: relative;
+	width: 188px;
+	height: 27px;
+	margin: 11px auto 0;
+	font-size: 11px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	z-index: 2;
+}
+
+.pepsi-cherry-promo p span {
+	font-weight: 900;
+}
+
+.pepsi-cherry-promo button {
+	position: relative;
+	display: block;
+	width: 118px;
+	height: 32px;
+	border-radius: 17px;
+	background-color: #3472b6;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 900;
+	margin: 12px auto 0;
+	text-transform: uppercase;
+	border: none;
+	z-index: 2;
+}
+
+.pepsi-cherry-promo__text button {
+	display: none;
+}
+
+.cans {
+	position: absolute;
+	bottom: 30px;
+	z-index: 0;
+}
+
+.cans--left {
+	background: url(https://www.pepsi.com/en-us/uploads/images/pep-wild-cherry-left-m.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	left: 0;
+	width: 135.3px;
+	height: 257.5px;
+}
+
+.cans--right {
+	background: url(https://www.pepsi.com/en-us/uploads/images/pep-wild-cherry-right-m.png) no-repeat;
+	background-size: cover;
+	background-position: left;
+	right: 0;
+	width: 144px;
+	height: 227px;
+}
+
+.pepsi-cherry-promo__legals {
+	position: absolute;
+	height: 32px;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	background-color: #0f4f8b;
+	z-index: 2;
+}
+
+.pepsi-cherry-promo__legals p {
+	display: block;
+	position: relative;
+	font-size: 10px;
+	margin: 6px auto;
+	width: 100%;
+}
+
+.pepsi-cherry-promo__legals p span {
+	font-weight: bold;
+}
+
+@media(min-width: 425px) {
+	.pepsi-cherry-promo {
+		height: 687px;
+	}
+
+	.pepsi-cherry-promo__logo {
+		width: 242px;
+		height: 194px;
+	}
+
+	.pepsi-cherry-promo h2 {
+		width: 304px;
+		height: 51px;
+		margin-top: 20px;
+	}
+
+	.pepsi-cherry-promo__fox-lockup-m {
+		width: 235px;
+		height: 30.5px;
+		margin-top: 8px;
+	}
+
+	.pepsi-cherry-promo__video {
+		width: 235px;
+		height: 138px;
+		margin-top: 12.4px;
+	}
+	.pepsi-cherry-promo p {
+		width: 235px;
+		font-size: 11px;
+	}
+
+	.pepsi-cherry-promo button {
+		width: 124px;
+		height: 34px;
+	}
+
+	.cans {
+		bottom: 32px;
+	}
+
+	.cans--left {
+		width: 198px;
+		height: 361px;
+	}
+	.cans--right {
+		width: 167px;
+		height: 264px;
+	}
+
+	.pepsi-cherry-promo__legals {
+		height: 36px;
+	}
+
+	.pepsi-cherry-promo__legals p {
+		width: 100%;
+	}
+}
+
+@media(min-width: 768px) {
+	.pepsi-cherry-promo {
+		height: 1024px;
+	}
+
+	.pepsi-cherry-promo__logo {
+		width: 375px;
+		height: 300px;
+		margin-top: 25px;
+	}
+
+	.pepsi-cherry-promo h2 {
+		width: 446px;
+		height: 76px;
+		margin-top: 41px;
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/headline-mobile@3x.png);
+	}
+
+	.pepsi-cherry-promo__fox-lockup-m {
+		width: 296px;
+		height: 38.5px;
+		margin-top: 30px;
+	}
+
+	.pepsi-cherry-promo__video {
+		width: 294px;
+		height: 168px;
+		margin-top: 47.5px;
+	}
+	.pepsi-cherry-promo > p {
+		width: 294px;
+		height: 42px;
+		margin-top: 48px;
+		font-size: 17px;
+	}
+
+	.pepsi-cherry-promo button {
+		width: 193px;
+		height: 53px;
+		font-size: 20px;
+		border-radius: 27px;
+	}
+
+	.cans {
+		bottom: 0;
+	}
+
+	.cans--left {
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/pep-wild-cherry-left-m@3x.png);
+		width: 305px;
+		height: 557px;
+	}
+	.cans--right {
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/pep-wild-cherry-right-m@3x.png);
+		width: 258px;
+		height: 408px;
+	}
+
+	.pepsi-cherry-promo__legals {
+		background-color: transparent;
+		bottom: 41px;
+	}
+}
+
+@media(min-width: 1024px) {
+	.pepsi-cherry-promo {
+		height: 668px;
+	}
+
+	.pepsi-cherry-promo__logo {
+		width: 385px;
+		height: 308px;
+		margin-top: 43px;
+	}
+
+	.pepsi-cherry-promo__text {
+		width: 250px;
+		text-align: right;
+		margin-top: -4px;
+		z-index: 2;
+	}
+
+	.pepsi-cherry-promo__app-cta {
+		display: flex;
+		margin-top: 6px;
+	}
+
+	.pepsi-cherry-promo__text button {
+		display: block;
+		width: 90px;
+		height: 24px;
+		font-size: 10px;
+		margin-top: 0;
+	}
+
+	.pepsi-cherry-promo__text p {
+		display: block;
+		text-align: right;
+		width: 136px;
+		height: 20px;
+		font-size: 8px;
+		margin: 0;
+	}
+
+	.pepsi-cherry-promo > p {
+		display: none;
+	}
+
+	.pepsi-cherry-promo h2 {
+		width: 228px;
+		height: 86px;
+		text-align: right;
+		margin-top: 0;
+		background-image: url(https://www.pepsi.com/en-us/uploads/images/headline-desktop@3x.png);
+	}
+
+	.desktop-flex-container {
+		margin: 0 auto;
+		margin-top: 48px;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+	}
+
+	.pepsi-cherry-promo__fox-lockup-m {
+		display: none;
+	}
+
+	.pepsi-cherry-promo__fox-lockup {
+		display: block;
+		width: 210px;
+		height: 23px;
+		margin-top: 11px;
+		margin-right: 11px;
+		float: right;
+	}
+
+	.pepsi-cherry-promo__video {
+		width: 252px;
+		height: 145px;
+		margin: 0;
+		margin-left: 4px;
+	}
+
+	.pepsi-cherry-promo > button {
+		display: none;
+	}
+
+	.cans--left {
+		width: 366px;
+		height: 668px;
+	}
+
+	.cans--right {
+		width: 314px;
+		height: 497px;
+	}
+}
+
+@media(min-width: 1366px) {
+	.cans--left {
+		background-image: url(../uploads/images/pep-wild-cherry-left@3x.png);
+		width: 404.9px;
+		height: 667px;
+	}
+
+	.cans--right {
+		background-image: url(../uploads/images/pep-wild-cherry-right@3x.png);
+		width: 445px;
+		height: 668px;
+	}
+}
+
+@media(min-width: 2560px) {
+	.pepsi-cherry-promo {
+		height: 899px;
+	}
+
+	.desktop-flex-container {
+		margin-top: 231px;
+	}
+
+	.pepsi-cherry-promo__logo {
+		display: none;
+	}
+
+	.pepsi-cherry-promo__logo-wide {
+		display: block;
+		width: 547.4px;
+		height: 438.6px;
+	}
+
+	.pepsi-cherry-promo__text {
+		width: 414px;
+		margin-left: 60px;
+		margin-top: 105px;
+	}
+
+	.pepsi-cherry-promo h2 {
+		width: 414px;
+		height: 155px;
+	}
+
+	.pepsi-cherry-promo__app-cta {
+		margin-top: 15px;
+		align-items: center;
+	}
+
+	.pepsi-cherry-promo__app-cta p {
+		font-size: 13px;
+		width: 222px;
+		height: 33px;
+	}
+
+	.pepsi-cherry-promo__app-cta button {
+		width: 167.7px;
+		height: 46.1px;
+		font-size: 18px;
+	}
+
+	.pepsi-cherry-promo__fox-lockup {
+		width: 353.4px;
+		height: 48.5px;
+	}
+
+	.pepsi-cherry-promo__video {
+		width: 480.6px;
+		height: 261px;
+		margin-left: 24px;
+		margin-top: 111px;
+	}
+
+	.cans--left {
+		width: 546.3px;
+		height: 900px;
+	}
+
+	.cans--right {
+		width: 599px;
+		height: 899px;
+	}
+
+}
+/* ----------------------------------------------------------------
+	UNIVERSAL HELPERS
+-----------------------------------------------------------------*/
+
+.media-desktop	{display: none !important;}
+.media-mobile	{display: block !important;}
+
+@media screen and (min-width: 948px) {
+	.media-desktop	{display: block !important;}
+	.media-mobile	{display: none !important;}	
+}
+
+
+/* ----------------------------------------------------------------
+	Pepsi Blue
+-----------------------------------------------------------------*/
+.pepsi-blue-promo {
+	position: relative;
+	/* font-family: PepsiFizz; */
+	width: 100%;
+	height: calc(150vw - 100px);
+	background-color: #040177;
+	background-image: url(../uploads/images/pepsi-blue/background-mobile.jpg);
+	background-position: left -15px bottom;
+	background-size: 153%
+}
+
+.pepsi-blue-promo__copy-vid-containter{
+	position: absolute;
+	width: 100%;
+    top: 0;
+	left: 0;
+    padding: 4% 6%;
+	z-index: 1;
+}
+
+.pepsi-blue-promo__title {
+	display: block;
+	width: 90%;
+	max-width: 533px;
+}
+
+.pepsi-blue-promo .promotion__video {
+	width: 62%;
+	height: initial;
+	max-width: 360px;
+}
+
+.promotion__watch-now-container {
+	position: absolute;
+	text-align: center;
+}
+
+.pepsi-blue-promo .promotion__video img {
+	z-index: -1;
+	position: relative;
+
+}
+
+
+.pepsi-blue-promo .button-large {
+	background-color: #fff !important;
+	color: #005eb8 !important;
+	height: 2.6em !important;
+}
+
+.pepsi-blue-promo a {
+
+	/* display: inline-block;
+	position: absolute;
+	top: 72vw;
+	width: initial;
+	background-color: #fff;
+	color: #005eb8;
+	padding: 5px 35px;
+	border-radius: 31px;
+	margin-left: 0;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+	height: 1.9em; */
+
+
+
+	/* display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: .4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+	background-color: #fff;
+	color: #005eb8;
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap; */
+	
+
+}
+
+/* .pepsi-blue-promo a:hover {
+	background-color: #040177;
+	color: #fff;
+} */
+
+.pepsi-blue-promo__imgs-containter {
+	position: absolute;
+	bottom: 0;
+	height: 50%;
+	width: 100%;
+	z-index: 0;
+}
+
+.pepsi-blue-promo__bottle{
+	display: block;
+	position: absolute;
+	right: 7%;
+	bottom: -2px;
+	height: calc(86vw - 1vh);
+	max-height: 990px;
+	width: auto;
+}
+
+.pepsi-blue-promo__vaper {
+	height: 100%;
+	width: 100%;
+}
+
+.pepsi-blue-promo__vape{
+	position: absolute;
+	width: 70%;
+	bottom: -5px;
+	transform: translateZ(0);
+}
+
+.pepsi-blue-promo__vape--left{
+	left: 0;
+	animation-name: smokie;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+.pepsi-blue-promo__vape--right{
+	right: 0;
+	animation-name: smokie;
+	animation-duration: 17s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+}
+
+@media (min-width: 380px){
+	.pepsi-blue-promo .button-large {
+		margin-top: 30px;
+	}
+
+}
+
+@media (min-width: 620px){
+	.pepsi-blue-promo a {
+		top: 500px;
+	}
+}
+
+
+ @media (min-width: 768px){
+	.pepsi-blue-promo {
+		max-height: 1024px;
+	}
+
+	.pepsi-blue-promo a {
+		/* font-size: 26px;
+		height: 1.6em; */
+	}
+
+}
+
+@media (min-width: 900px){
+	.pepsi-blue-promo {
+		height: 667px;
+		background-size: cover;
+		background-position: right 16% bottom;
+		background-image: url(../uploads/images/pepsi-blue/background-desktop.jpg);
+	}
+
+	.pepsi-blue-promo__title {
+		max-width: 280px;
+	}
+
+	.pepsi-blue-promo__bottle{
+		max-height: 660px;
+	}
+}
+
+@media (min-width: 1330px){
+	.pepsi-blue-promo__title {
+		max-width: 533px;
+	}
+}
+
+@media (min-width: 1600px){
+	.pepsi-blue-promo {
+		height: calc(100vh - 90px);
+	}
+
+	.pepsi-blue-promo__bottle{
+		height: 87vh;
+		max-height: 990px;
+	}
+}
+
+@media (min-width: 1900px){
+	.pepsi-blue-promo {
+		background-position: right -100px center;
+	}
+
+	.pepsi-blue-promo__copy-vid-containter{
+		margin-top: 10%;
+		width: 60%;
+	}
+
+	.pepsi-blue-promo__title {
+		width: 60%;
+		max-width: unset;
+	}
+
+	.pepsi-blue-promo a {
+		position: relative;
+		top: unset;
+	}
+
+	.pepsi-blue-promo .promotion__video {
+		max-width: 535px;
+		position: absolute;
+		right: -50px;
+		margin-top: -23%;
+	}
+	
+	.pepsi-blue-promo__bottle{
+		right: 222px;
+	}
+
+}
+
+@keyframes smokie {
+	0%   {opacity: 1; bottom: -5px;}
+	20%   {opacity: .5;}
+	30%   {bottom: -10px;}
+	40%   {opacity: .7;}
+	50%   {bottom: -5px;}
+	60%   {opacity: .4; bottom: -10px;}
+	80%   {opacity: .6;bottom: -7px;}
+	100%   {opacity: 1; bottom: -5px;}
+  }
+
+/* ----------------------------------------------------------------
+	Pepsi Soda Shop
+-----------------------------------------------------------------*/
+.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+	display: flex;
+    /* width: 55% !important; */
+	width: 47% !important;
+
+    justify-content: center;
+	margin: 4vw auto !important;
+}
+
+
+.pepsi-soda-shop-wsl-wrapper {
+	width: 100%;
+    position: absolute;
+}
+.pepsi-soda-shop-wsl {
+    width: 97px;
+    height: 101px;
+    margin-top: .5em;
+}
+
+.pepsi-soda-shop-content-wrapper {
+	width: 100%;	
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	/* top: 51vw; */
+	top: 52vw;
+}
+
+.pepsi-soda-shop-content {
+    margin: 0 auto;
+}
+.soda-shop-can-wrapper {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.pepsi-soda-shop-promo {
+	position: relative;
+	/* min-height: 216vw;
+    max-height: 216vw; */
+	min-height: 173vw;
+    max-height: 173vw;
+}
+
+.pepsi-soda-shop-promo img {
+	image-rendering: -moz-crisp-edges;         /* Firefox */
+	image-rendering:   -o-crisp-edges;         /* Opera */
+	image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+.pepsi-soda-shop-can-left {
+    /* left: -6vw;
+    width: 62vw; */
+	/* left: 1vw; */
+	left: 0.5vw;
+    width: 50vw;
+	z-index: 3;
+	bottom: -1vh;
+}
+
+.pepsi-soda-shop-can-right {
+	/* right: -10vw;
+    width: 60vw;
+    z-index: 2;
+    bottom: 5vh; */
+	/* right: -4vw; */
+	right: -4.5vw;
+    width: 52vw;
+    z-index: 2;
+    bottom: 2vh;
+}
+
+.soda-shop-cans {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pepsi-soda-shop-header {
+	font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #10428c;
+    font-size: 3vw;
+	letter-spacing: .6vw;
+}
+
+.soda-shop-coming-soon-btn {
+	border: 2px solid #e81638 !important;
+    background-color: #fff !important;
+    color: #e81638 !important;
+	line-height: .7em !important;
+    font-size: 14px !important;
+	height: 1.8em !important;
+}
+
+.soda-shop-coming-soon-btn:hover {
+	color: #fff !important;
+	background-color: #e81638 !important;
+
+}
+/* .soda-shop-coming-soon-btn:hover {
+	background-color: #e81638 !important;
+	color: #fff !important;
+} */
+.pepsi-soda-shop-content-wrapper  .promotion__video {
+	margin:0% 0% !important;
+}
+
+
+.pepsi-soda-shop-bg {
+	position: absolute;
+	background: url(../uploads/images/sodashop/background-mobile@3x.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.pepsi-soda-shop-bg-floor {
+	position: absolute;
+	background: url(../uploads/images/sodashop/background-floor-mobile-refresh.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+	/* height: 113vw; */
+	height: 111vw;
+    bottom: 0;
+}
+
+
+@media screen and (min-width: 500px) {
+	.pepsi-soda-shop-promo {
+		/* min-height: 203vw;
+		max-height: 203vw; */
+		/* min-height: 192vw;
+		max-height: 192vw; */
+		/* min-height: 205vw;
+		max-height: 205vw; */
+		/* min-height: 180vw;
+		max-height: 180vw; */
+		min-height: 170vw;
+		max-height: 170vw;
+	}
+
+
+
+	.pepsi-soda-shop-bg {
+		background: url(../uploads/images/sodashop/background-mobile@3x.jpg);
+		background-size: cover;
+		/* background-position: center top; */
+		background-position: center -2vw;
+		background-repeat: no-repeat;
+		width: 100%;
+		/* height: 205vw; */
+		/* height: 180vw; */
+		height: 170vw;
+	}
+
+	.pepsi-soda-shop-bg-floor {
+		background: url(../uploads/images/sodashop/background-floor-mobile-refresh.png);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 125vw;
+		/* bottom: -26vw; */
+		/* bottom: 10vw; */
+		/* bottom: -11vw; */
+		bottom: -21vw;
+	}
+
+	.pepsi-soda-shop-can-left {
+		/* bottom: 0vw; */
+		/* bottom: 10vw; */
+		bottom: 0vw;
+		width: 47vw;
+	}
+
+	.pepsi-soda-shop-can-right {
+		/* bottom: 12vw; */
+		bottom: 1.5vw;
+	}
+
+	.pepsi-soda-shop-content-wrapper {
+		/* top: 53vw; */
+		top: 52vw;
+	}
+
+	.soda-shop-coming-soon-btn {
+		font-size:18px !important;
+	}
+
+	.pepsi-soda-shop-wsl {
+		width: 20vw;
+		height: 188px;
+		margin-top: .8em;
+	}
+
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+	.pepsi-soda-shop-promo {
+		min-height: 1024px;
+		max-height: 1024px;
+	}
+
+	.soda-shop-coming-soon-btn {
+		font-size:17px !important;
+	}
+
+	.pepsi-soda-shop-content-wrapper {
+		top: 34vw;
+	}
+
+	.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+		width: 315.4px !important;
+	}
+
+	.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+		margin: 1em auto !important;
+	}
+
+	.pepsi-soda-shop-bg {
+		background: url(../uploads/images/sodashop/background-tablet@3x.jpg);
+		background-size: cover;
+		background-position: center -6em;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+	}
+
+	.pepsi-soda-shop-bg-floor {
+		background: url(../uploads/images/sodashop/background-floor-tablet-refresh@3x.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		/* height: 487px; */
+		height: 787px;
+		/* bottom: 0; */
+		/* bottom: 0vh; */
+		bottom: -7vh;
+	}
+
+	.pepsi-soda-shop-can-left {
+		/* left: 1vw;
+		width: 378.7px;
+		z-index: 3;
+		bottom: -2em; */
+		left: 2vw;
+		width: 350px;
+		z-index: 3;
+		bottom: -1em;
+	}
+
+	.pepsi-soda-shop-can-right {
+		/* 
+		width: 367.8px;
+		left: 0;
+		bottom: 2vw; */
+		right: -24em;
+		bottom: 2vw;
+		width: 374.8px;
+		left: 7vw;
+	}
+
+
+
+}
+
+@media screen and (min-width: 900px) {
+
+	.pepsi-soda-shop-wsl {
+		left: -41em;
+		width: 110px;
+		right: 0;
+		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		top: .6em;
+	}
+
+	.pepsi-soda-shop-header {
+		font-size: 1.4vw;
+		letter-spacing: .3vw;
+	}
+
+	.soda-shop-coming-soon-btn {
+		font-size:18px !important;
+	}
+
+	.pepsi-soda-shop-content-wrapper {
+		top: inherit;
+		/* bottom: 1vw; */
+		bottom: .5vw;
+	}
+
+	.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+		width: 250px !important;
+		margin: 1em auto !important;
+	}
+
+	.pepsi-soda-shop-bg-floor {
+		display: none;
+	}
+	
+	.pepsi-soda-shop-bg {
+		background: url(../uploads/images/sodashop/Background_Desktop@3x.jpg);
+		background-size: cover;
+		background-position: center top;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+	}
+
+	.pepsi-soda-shop-can-left {
+		left: -41.5em;
+		width: 297px;
+		/* bottom: 0; */
+		bottom: -.3em;
+		right: 0;
+	}
+	
+	.pepsi-soda-shop-can-right {
+		right: -43.5em;
+		width: 336px;
+		bottom: 0;
+		left: 0;
+	}
+
+	.pepsi-soda-shop-promo {
+		min-height: 538px;
+		max-height: 538px;
+	}
+
+
+
+}
+ @media screen and (min-width: 1024px) {
+
+	.pepsi-soda-shop-can-left {
+		left: -42em;
+		width: 298px;
+	}
+	
+	.pepsi-soda-shop-can-right {
+		right: -44em;
+		width: 335px;
+	}
+	.pepsi-soda-shop-wsl {
+		left: -42em;
+		width: 110px;
+		top: .7em;
+	}
+
+}
+@media screen and (min-width: 1280px) {
+
+	.pepsi-soda-shop-wsl {
+		left: -55em;
+		width: 130px;
+		top: 1.3em;
+	}
+
+
+	.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+		margin: 1.5em auto !important;
+	}
+
+	.pepsi-soda-shop-content-wrapper {
+		bottom: 1vw;
+	}
+
+	.pepsi-soda-shop-header {
+		font-size: 22px;
+		letter-spacing: 4.4px;
+	}
+
+	.pepsi-soda-shop-can-left {
+		left: -55em;
+		width: 385px;
+	}
+
+	.pepsi-soda-shop-can-right {
+		right: -57em;
+		/* width: 437px; */
+		width: 428px;
+	}
+
+	.pepsi-soda-shop-promo {
+		min-height: 700px;
+		max-height: 700px;
+	}
+
+	.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+		width: 315px !important;
+	}
+
+}
+
+
+@media screen and (min-width: 1366px) {
+
+	.pepsi-soda-shop-wsl {
+		left: -52em;
+		top: 1em;
+	}
+
+	.pepsi-soda-shop-can-left {
+		left:-52em;
+		width: 370px;
+	}
+	
+	.pepsi-soda-shop-can-right {
+		right: -55em;
+		width: 416px;
+	}
+
+	.pepsi-soda-shop-promo {
+		min-height: 668px;
+		max-height: 668px;
+	}
+	.pepsi-soda-shop-content-wrapper {
+		bottom: .5vw;
+	}
+
+}
+
+@media screen and (min-width: 1920px) {
+
+	.pepsi-soda-shop-content-wrapper .promotion__video-wrapper {
+		width: 462px !important;
+		margin: 2em auto !important;
+	}
+
+	.pepsi-soda-shop-header {
+		font-size: 31.5px;
+		letter-spacing: 6.3px;
+	}
+
+	.pepsi-soda-shop-promo {
+		min-height: 980px;
+		max-height: 980px;
+	}
+
+	.pepsi-soda-shop-can-left {
+		left: -77em;
+		width: 541px;
+	}
+	
+	.pepsi-soda-shop-can-right {
+		right: -80em;
+		width: 608px;
+	}
+
+	.soda-shop-coming-soon-btn {
+		font-size:25px !important;
+	}
+
+	.pepsi-soda-shop-content-wrapper {
+		bottom: 1vw;
+	}
+
+	.pepsi-soda-shop-wsl {
+		left: -77em;
+		width: 180px;
+		top: 2em;
+	}
+
+}
+/* ----------------------------------------------------------------
+	Better With Pepsi
+-----------------------------------------------------------------*/
+
+/*video container */
+
+.promotion.mm-002 .promotion__video-cta-ani-override, .promotion__video-cta-no-ani {
+	font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: .875rem;
+	z-index: 1;
+	margin: 0;
+ }
+
+
+ .promotion.mm-002 .promotion__video-wrapper {
+	display: flex;
+	width:100%;
+	justify-content: center;
+	margin-top:1rem
+ }
+
+ .promotion.mm-002 .promotion__video {
+	position:relative;
+	height: initial;
+	min-height:initial;
+	position:relative;
+	width: 100%;
+	margin: initial;
+ }
+
+ .promotion.mm-002 .promotion__watch-now-container {
+	position: absolute;
+	text-align: center;
+ }
+
+ .promotion.mm-002 .promotion__video img {
+	position:initial;
+	top:initial;
+	left:initial;
+ }
+
+ .better-with-pepsi-promo__video-container__video_title {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: #1437bf;
+    line-height: 26px;
+    display: inline-block;
+    height: 40px;
+}
+
+.better-with-pepsi-promo__video-container__video_title span {
+	font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+ /* end video container */
+  
+.better-with-pepsi-promo {
+	position: relative;
+	width: 100%;
+    min-height: 177vw;
+    max-height: 177vw;
+}
+
+.better-with-pepsi-promo__bg {
+	background-image: url(../uploads/images/better-with-pepsi/PEP_BWP_D@2x.jpg);
+	background-repeat: no-repeat;
+	background-color: #265cc5;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	background-size: 283vw;
+	background-position: 65% 0;
+	width: 100%;
+}
+		
+.better-with-pepsi-promo__video-container {
+	background: #265cc5;
+	position: absolute;
+	width: 100%;
+	bottom:0;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.better-with-pepsi-promo__tagline {
+	width: 79%;
+    position: absolute;
+    right: 0;
+    bottom: 11%;
+}
+
+.splide__slide img {
+	width : 100%;
+	height: auto;
+}
+
+.splide__pagination {
+	bottom: -1.8em !important;
+}
+.video-thumb-overlay-container {
+    width: 100%;
+}
+@media screen and (min-width: 500px) {
+
+	.better-with-pepsi-promo {
+		min-height: 156vw;
+		max-height: 156vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		width: 100%;
+		background-size: 253vw;
+		background-position: 65% 0;
+		height: 100%;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 61%;
+		bottom: 74vw;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	.better-with-pepsi-promo {
+		min-height: 127vw;
+		max-height: 129vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		width: 100%;
+		background-size: 273vw;
+		background-position: 65% 0;
+		height: 100%;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 57vw;
+		bottom: 46.5vw;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.better-with-pepsi-promo__tagline {
+		bottom: 44vw;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.better-with-pepsi-promo__tagline {
+		bottom: 41vw;
+	}
+}
+
+
+
+@media screen and (min-width: 1024px) { 
+
+	.better-with-pepsi-promo {
+		min-height: 46vw;
+		max-height: 46vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		background-position: 22% 0%;
+		background-size: 142%;
+	}
+
+	.better-with-pepsi-promo__video-container {
+		height: 100%;
+		left:0;
+		width:34%;
+		top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height:100%;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 37%;
+		bottom: 2%;
+	}
+
+	/* .promotion.mm-002 .promotion__video {
+		margin: 10% 0;
+	} */
+
+	.splide__slide:first-of-type {
+		margin-bottom: 2em;
+	}
+
+	.splide__list {
+		flex-direction: column;
+	}
+		
+	.splide__list .splide__slide {
+		width: 100% !important;	
+		flex-direction: column ;
+	}
+
+}
+@media screen and (min-width: 1280px) {
+
+	.better-with-pepsi-promo {
+		min-height: 700px;
+		max-height: 700px;
+	}
+
+	.better-with-pepsi-promo__bg {
+		width: 100%;
+		background-size: 163%;
+		background-position: 33% 0;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 37%;
+		bottom: 2%;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+
+	.better-with-pepsi-promo {
+		min-height: 980px;
+		max-height: 980px;
+	}
+
+	.better-with-pepsi-promo__bg {
+		width: 100%;
+		background-size: 153%;
+		background-position: 24% 0;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 41%;
+		bottom: 3%;
+	}
+
+	.better-with-pepsi-promo__video-container {
+		width:28%;
+	}
+
+}
+@media screen and (min-width: 2560px) {
+	.better-with-pepsi-promo {
+		min-height: 980px;
+		max-height: 980px;
+	}
+
+	.better-with-pepsi-promo__bg {
+		width: 100%;
+		background-size: 114%;
+		background-position: -24% 0;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 34%;
+		bottom: 3%;
+	}
+
+	.better-with-pepsi-promo__video-container {
+		width: 16%;
+	}
+
+}
+
+/* Portrait iPhone 5 and iPhone 5S*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+	.better-with-pepsi-promo {
+		min-height: 189vw;
+		max-height: 189vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		width: 100%;
+		background-size: 330vw;
+		background-position: 65% 0;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 85%;
+		bottom: 44%;
+	}
+}
+
+/* landscape iPhone 5 and iPhone 5S*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+	.better-with-pepsi-promo__tagline {
+		width: 58%;
+		bottom: 37%;
+	}
+}
+
+/* Portrait  iPhone 6/7/8*/
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-height: 667px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) 
+{
+	.better-with-pepsi-promo {
+		min-height: 176vw;
+		max-height: 176vw;
+	}
+	.better-with-pepsi-promo__bg {
+		background-size: 295%;
+		background-position: 67% top;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 85%;
+		bottom: 45%;
+	}
+}
+/* landscape iPhone 6/7/8*/
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-height: 1024px)
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) 
+{
+
+}
+/* Portrait and landscape iPhone 6/7/8+ */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-height: 736px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	.better-with-pepsi-promo {
+		min-height: 180vw;
+		max-height: 180vw;
+	}
+}
+
+/* Portrait and landscape iPhone x/xs/11*/
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px)
+and (orientation: portrait) 
+and (-webkit-device-pixel-ratio : 3) { 
+
+	.better-with-pepsi-promo {
+		min-height: 216vw;
+		max-height: 216vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		background-size: 424%;
+		background-position: 65% top;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 83%;
+		bottom: 37%;
+	}
+}
+
+/* Portrait and landscape iPhone x/xs/11*/
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px)
+and (orientation: landscape) 
+and (-webkit-device-pixel-ratio : 3) { 
+
+	.better-with-pepsi-promo {
+		min-height: 216vw;
+		max-height: 216vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		background-size: 424%;
+		background-position: 65% top;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 83%;
+		bottom: 37%;
+	}
+
+}
+
+/* Portrait pixel 2 */
+@media only screen 
+and (min-device-width: 411px) 
+and (max-device-width: 731px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	.better-with-pepsi-promo__bg {
+		background-size: 339%;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 75%;
+		bottom: 42%;
+	}
+}
+
+
+/* ipad Portrait */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.better-with-pepsi-promo {
+		min-height: 1050px;
+		max-height: 1050px;
+	}
+
+	.better-with-pepsi-promo__bg {
+		background-size: 305%;
+		background-position: 67% top;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 73%;
+		bottom: 30%;
+	}
+}
+
+/* ipad pro Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.better-with-pepsi-promo {
+		min-height: 60vw;
+		max-height: 60vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		background-size: 184%;
+		background-position: 45% top;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 46%;
+		bottom: 2%;
+	}
+}
+
+/* surface duo*/
+@media only screen 
+and (device-width : 540px) 
+and (device-height : 720px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+	.better-with-pepsi-promo {
+		min-height: 146vw;
+		max-height: 146vw;
+	}
+
+	.better-with-pepsi-promo__bg {
+		background-size: 317%;
+		background-position: 65% top;
+	}
+
+	.better-with-pepsi-promo__tagline {
+		width: 78%;
+		bottom: 32%;
+	}
+
+}
+@media (max-width:320px){.promotion .promotion__title{font-size:2rem}}.promotion-superbowl{padding:0;height:auto;background-size:100% 100%;background-position:50%;min-height:100%}.promotion-superbowl:before{content:"";position:absolute;display:block;visibility:visible;width:100%;height:100%;top:0;left:0;opacity:0;-webkit-transform:translate3d(-200px,0,0);transform:translate3d(-200px,0,0);//background-image:url(../img/home/promotion-superbowl-background-hero.29610b8065932a7f396caa5d447b33e9.png);background-size:contain;background-position:20% bottom;background-repeat:no-repeat}.promotion-superbowl.visible:before{-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-right,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in;animation:.9s cubic-bezier(.455,.03,.515,.955) .5s forwards elastic-ease-out-right,.9s cubic-bezier(.215,.61,.355,1) .5s forwards linear-fade-in}.promotion-superbowl .promotion__container{height:auto;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.promotion-superbowl .promotion__container1{-webkit-filter:none;filter:none;height:auto}.promotion-superbowl .promotion__container1 .superbowl-hero{width:120%;max-height:none;height:auto;display:inline-block;position:relative;//bottom:calc(4.5vh - 4.05px);//bottom:calc((100vh - 90px) * .045);//bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);display:none}.promotion-superbowl .promotion__container1 .superbowl-hero-mobile{display:none}.promotion-superbowl .promotion__container2{padding:50px 0 60px;height:auto}.promotion-superbowl .promotion__title:before{content:"";display:block;width:auto;height:5rem;background:url(../img/home/logo-pepsi-superbowl.24234db994bc4ecf9a67f6157883fdf0.png) no-repeat 0 0;background-size:contain;margin-bottom:1rem}@media (max-width:1024px){.promotion-superbowl .promotion__body{width:100%}.promotion-superbowl .promotion__video{position:relative;width:182px;max-width:none;min-width:auto;height:103px;max-height:none;min-height:auto}.promotion-superbowl .promotion__video .promotion__video-cta{font-size:12px;margin-top:.25em}.promotion-superbowl .promotion__video .promotion__video-button{width:35px;height:35px;padding:0}}@media (orientation:portrait){.promotion-superbowl{background-image:url(../img/home/promotion-superbowl-mobile-background.f093c7d9a162c0bf5d0ce4e09b8e5eb7.jpg)!important;background-size:100% 100%;height:auto;min-height:100%}.promotion-superbowl:before{visibility:hidden}.promotion-superbowl .promotion__container{height:auto!important;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:auto}.promotion-superbowl .promotion__container1{margin-top:75px;height:auto!important;min-height:auto}.promotion-superbowl .promotion__container2{width:90%!important;height:auto!important;min-height:auto;padding:20px 0 60px}.promotion-superbowl .promotion__container1 .superbowl-hero{height:100%;display:none;bottom:auto}.promotion-superbowl .promotion__container1 .superbowl-hero-mobile{display:block;height:294px;width:auto}.promotion-superbowl .promotion__title:before{width:100%;height:58px;background-size:contain;background-position:50%;margin-bottom:15px}.promotion-superbowl .promotion__body{font-size:14px}}.promotion-loyalty .promotion__title .loyalty__title-blue,.promotion-loyalty .promotion__title .LOYALTY__TITLE-BLUE{color:#00529c}.promotion-loyalty .promotion__title .loyalty__title-red,.promotion-loyalty .promotion__title .LOYALTY__TITLE-RED{color:#ed1b2e}.promotion-loyalty .promotion__title:before{content:"";display:block;width:8rem;height:5rem;background:url(../img/home/logo-pepsi-stuff.153f6283d90250a69c4bb0acacd8c3d5.png) no-repeat 0 0;background-size:contain}.promotion-loyalty .promotion__body{color:#000}.promotion-loyalty .button-large,.promotion-loyalty button.button-large{color:#00529c!important;border-color:#00529c!important}.promotion-loyalty button.button-large:hover{background-color:transparent!important}@media (orientation:portrait){.promotion-loyalty{background-image:url(../img/home/promotion-loyalty-mobile-background.ee7d497313bdd74935a6b1cc5487dec5.jpg)!important;min-height:55rem}.promotion-loyalty .promotion__title:before{width:100%;height:4.5rem;background-size:70%;background-position-x:50%}}@-webkit-keyframes social-item-y{0%{-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0)}26%{-webkit-transform:translate3d(0,-51px,0);transform:translate3d(0,-51px,0)}60%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}92%{-webkit-transform:translate3d(0,-.5px,0);transform:translate3d(0,-.5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes social-item-y{0%{-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0)}26%{-webkit-transform:translate3d(0,-51px,0);transform:translate3d(0,-51px,0)}60%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}92%{-webkit-transform:translate3d(0,-.5px,0);transform:translate3d(0,-.5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@-webkit-keyframes social-item-opacity{0%{opacity:0}to{opacity:1}}@keyframes social-item-opacity{0%{opacity:0}to{opacity:1}}.social{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;width:100%;height:80%;color:#0065c3}.social .social__title-container{margin:auto;text-align:center}.social .social__title{font-size:3.75rem;-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0);opacity:0}.social .social__item-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;width:90%;height:auto;margin:auto;margin-top:0;font-size:0}.social .social__item{-webkit-box-flex:1;-ms-flex:auto;flex:auto;width:21.875rem;position:relative;overflow:hidden;-webkit-transform:translate3d(0,400px,0);transform:translate3d(0,400px,0);opacity:0}.social .social__item .social__item-image{width:100%;height:auto;-webkit-transition:-webkit-transform .3s ease-out;transition:-webkit-transform .3s ease-out;transition:transform .3s ease-out;transition:transform .3s ease-out,-webkit-transform .3s ease-out}.social.visible .social__item,.social.visible .social__title{-webkit-animation:.9s cubic-bezier(.455,.03,.515,.955) forwards social-item-y,.9s cubic-bezier(.215,.61,.355,1) forwards social-item-opacity;animation:.9s cubic-bezier(.455,.03,.515,.955) forwards social-item-y,.9s cubic-bezier(.215,.61,.355,1) forwards social-item-opacity}.social .social__item:hover .social__item-image{-webkit-transition:all .5s cubic-bezier(.1,1.05,.55,1.49);transition:all .5s cubic-bezier(.1,1.05,.55,1.49);-webkit-transform:scale(1.15) rotate(5deg);transform:scale(1.15) rotate(5deg);-webkit-filter:brightness(.6);filter:brightness(.6)}@media (max-width:1024px){.social{min-height:60rem}.social .social__title{font-size:3rem;line-height:2.75rem}.social .social__title-container{width:80%}.social .social__title{font-size:2.75rem;line-height:2.5rem}.social .social__item-container{-ms-flex-wrap:wrap;flex-wrap:wrap;width:80%}.social .social__item{width:50%}}@media (max-width:768px){.social{min-height:100%}.social .social__title{font-size:2.75rem;line-height:2.5rem}}@media (max-width:768px) and (orientation:landscape){.social .social__item-container{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.social .social__item{width:25%}}.social__twitter:after{background:url(../img/home/icon-twitter.19d7e9de57475b8de6a58e97e7f52dfb.svg) no-repeat 0 0;background-size:contain}.social__instagram:after,.social__twitter:after{content:"";position:absolute;left:1rem;bottom:1rem;display:block;width:2rem;height:2rem;opacity:.9}.social__instagram:after{background:url(../img/home/icon-instagram.0e3d410649ac6ffeefa45808120e1e95.svg) no-repeat 0 0}.social__youtube:after{background:url(../img/home/icon-youtube.0d901105ba15121b08030e8c9d1823ad.svg) no-repeat 0 0}.social__facebook:after,.social__youtube:after{content:"";position:absolute;left:1rem;bottom:1rem;display:block;width:2rem;height:2rem;opacity:.9}.social__facebook:after{background:url(../img/home/icon-facebook.cf7efb08f7b9eaa4f8c2765e29c33bdc.svg) no-repeat 0 0}.social__tiktok:after{background:url(../img/home/icon-tiktok.svg) no-repeat 0 0}.social__tiktok:after{content:"";position:absolute;left:1rem;bottom:1rem;display:block;width:2rem;height:2rem;opacity:.9}.footer{position:relative;width:auto;height:18rem;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background:#0065c3}.footer,.footer .footer__container{display:-webkit-box;display:-ms-flexbox;display:flex}.footer .footer__container{width:100%;height:100%;padding:2.5%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.footer .footer__logo{display:block}.footer .footer__logo img{width:100%}.footer .footer__linklist-mobile_container{display:none}.footer .footer__linklist,.footer .footer__linklist-mobile{margin:0;padding:0;list-style:none;-webkit-column-count:3;column-count:3;-webkit-column-gap:4rem;column-gap:4rem}.footer .footer__link-item{font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1rem;margin-bottom:1rem;white-space:nowrap;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}.footer .footer__link-item:hover:not(.button-large){opacity:.6!important}.footer .footer__button-list{display:none}.footer .footer__container-right button{font-size:1rem;line-height:1rem}.footer .footer__social-container{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;margin-top:1rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.footer .footer__social-link{display:-webkit-box;display:-ms-flexbox;display:flex;width:auto;height:3rem;margin:auto}.footer .footer__social-link img{width:2rem;height:2rem;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}.footer .footer__social-link:hover img{opacity:.6!important}@media (max-width:1300px){.footer .footer__container-right button,.footer .footer__link-item{font-size:.875rem}}@media (max-width:1024px){.footer{height:60%;min-height:28rem}.footer .footer__container{height:25%;border-top:1px solid hsla(0,0%,100%,.5)}.footer .footer__logo{width:3rem;height:auto}.footer .footer__linklist{display:none}.footer .footer__linklist-mobile_container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-flex:2;-ms-flex:2;flex:2}.footer .footer__linklist-mobile{-webkit-column-count:1;column-count:1;margin:auto;text-align:center}.footer .footer__button-list{display:block}.footer .footer__container-right{width:auto}.footer .footer__container-right button{display:none}.footer .footer__social-container{margin-top:auto;width:10rem}.footer .footer__social-link{margin:auto 2.5%}.footer .footer__social-link img{width:1.875rem}}@media (max-width:600px){.footer .footer__logo{width:2rem;height:auto}.footer .footer__link-item{margin-bottom:5%}}.modal{position:fixed;top:0;left:0;width:100%;height:100%;z-index:999999;background:rgba(0,0,0,.7);display:none;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.modal .modal__shop-container{width:25rem;height:auto;background:#fff;-webkit-box-shadow:24px 0 97.85px 5.15px rgba(0,0,0,.15);box-shadow:24px 0 97.85px 5.15px rgba(0,0,0,.15);text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around}.modal .modal__copy-body,.modal .modal__cta{width:100%;display:block;margin:1rem auto}.modal .modal__copy-body{color:hsla(0,0%,60%,.6);font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;text-transform:uppercase;margin:2rem auto;width:auto;padding:0 .5rem;z-index:1}.modal .modal__retailers{display:block;margin:0}.modal .modal__copy-bodybackground{background:#fff}.modal .modal__cta-storelocator{color:#0065c3;border-color:#0065c3;text-transform:uppercase;margin:.5em auto;position:relative;top:-2rem;font-size:14px;max-width:10rem}@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){.modal .modal__cta-storelocator{left:30%}}.modal .modal__copy-divider{position:relative;top:-3rem;width:100%;border:0;border-bottom:2px solid hsla(0,0%,60%,.4)}.modal .modal__video-container{display:none;width:80vw;height:45.19774vw;-webkit-box-shadow:24px 0 97.85px 5.15px rgba(0,0,0,.15);box-shadow:24px 0 97.85px 5.15px rgba(0,0,0,.15);background:#000}.modal .modal__button-close{width:3rem;height:3rem;border:0;background:transparent;outline:0;position:absolute;top:.5rem;right:.5rem;cursor:pointer}.modal .modal__button-close svg{-webkit-transition:all .3s ease-out;transition:all .3s ease-out;fill:hsla(0,0%,60%,.6)}.modal .modal__button-close:hover svg{fill:#000}@media screen and (max-height:500px) and (orientation:landscape){.modal .modal__shop-container{width:auto;padding:0 1em}.modal .modal__cta{width:auto;margin:0 1em}.modal .modal__cta,.modal .modal__cta img{display:inline-block;vertical-align:middle}.modal .modal__retailers{white-space:nowrap}}.copyright,.terms{width:80%;margin:auto;padding-bottom:5.625rem;font-family:Sofia Pro Regular,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1.25rem;line-height:1.5;color:#000}.copyright h1,.copyright h2,.terms h1,.terms h2{color:#0065c3;line-height:1}.copyright a,.terms a{display:inline-block;font-family:Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;color:#0065c3}.copyright h1,.terms h1{font-size:3rem;margin-bottom:2rem}.copyright span,.terms span{display:block;margin:2rem 0;border:.5rem solid #0065c3;width:6rem}.copyright ul,.terms ul{list-style-type:lower-latin}.copyright li,.terms li{padding:.5rem}.copyright .copyright__logo,.copyright .terms__logo,.terms .copyright__logo,.terms .terms__logo{margin-bottom:2rem}.copyright .copyright__footnote,.copyright .terms__footnote,.terms .copyright__footnote,.terms .terms__footnote{color:#0065c3;padding:1rem 0;border-bottom:.5rem solid #0065c3;width:23rem}@media (max-width:768px){.copyright,.terms{width:95%;font-size:.8rem}.copyright h1,.terms h1{font-size:2rem;margin-bottom:1rem}}.fourohfour{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:auto;font-family:Sofia Pro Regular,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1.25rem;line-height:1.5;color:#fff;text-align:center}.fourohfour h1,.fourohfour h2{line-height:1}.fourohfour .button-large{text-transform:uppercase;position:relative;font-size:14px;line-height:1.2em}.fourohfour h1{font-size:13rem;margin-bottom:1rem;color:#0058a9;opacity:.5}.fourohfour h2{font-size:3.5rem;text-transform:uppercase}.fourohfour .copyright__logo,.fourohfour .terms__logo{margin-bottom:2rem;text-align:left}@media (max-width:1024px){body.layout-404{padding-top:0!important}.fourohfour{height:100%;font-size:.8rem;padding:1rem;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.fourohfour h1{font-size:10rem}.fourohfour h2{font-size:1.5rem}.fourohfour .terms__logo{position:absolute;top:2rem}}*{-webkit-box-sizing:border-box;box-sizing:border-box}body,html{height:100%;color:#fff;background:#0065c3;margin:0;padding:0;font-family:Sofia Pro Regular,Helvetica Neue,Helvetica,Arial,sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;font-weight:400}body.active,body.hamburger,html.active,html.hamburger{overflow:hidden}body{padding-top:5.625rem;-webkit-overflow-scrolling:touch}@media (max-width:2560px){body.active,html.active{overflow:auto}body.active .footer,body.active section,html.active .footer,html.active section{display:none!important}body.active .hero,html.active .hero{display:-webkit-box;display:-ms-flexbox;display:flex}}@-moz-document url-prefix(){body{font-weight:lighter!important}}section{position:relative;width:100%;height:100%;margin:0;padding:0;background:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow:hidden}.deeplink-anchor{position:absolute;margin-top:-90px}@media (max-width:1024px){body{padding-top:6.25rem}.deeplink-anchor{position:absolute;margin-top:-100px}}.dg.main{position:absolute;top:0;z-index:100}
