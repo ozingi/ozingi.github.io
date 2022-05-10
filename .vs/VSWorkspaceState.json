@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\script"
+    "\\html",
+    "\\json",
+    "\\json\\mMoudle",
+    "\\json\\mMoudle\\update",
+    "\\json\\mMoudle\\update\\moto_widget_and_launcher"
   ],
   "PreviewInSolutionExplorer": false
 }

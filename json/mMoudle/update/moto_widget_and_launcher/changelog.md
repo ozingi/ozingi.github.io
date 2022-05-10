@@ -1,5 +1,4 @@
-﻿# moto widget and launcher
-
+﻿
 ## 更新日志
 1. Derplauncher换成了Corvus Launcher最新版，多任务界面多了内存信息展示
 2. 模块更新安装过程优化
@@ -10,3 +9,5 @@
 1. 修复了原moudle Moto 小部件在12L无法使用并更新版本到 V4.06.33；
 2. 对喜欢或熟悉moto launcher的比较nice，但不支持12L，会自动选择性安装；
 3. 可以修复类原生12L的QuickSwitch多任务手势。
+### 作者地址
+[ozingi](https://ozingi.github.io/) 建设中...
