@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\html",
+    "\\img",
+    "\\img\\payment",
     "\\json",
     "\\json\\mMoudle",
     "\\json\\mMoudle\\update",
     "\\json\\mMoudle\\update\\moto_widget_and_launcher"
   ],
-  "SelectedNode": "\\html\\markdown_test.html",
   "PreviewInSolutionExplorer": false
 }

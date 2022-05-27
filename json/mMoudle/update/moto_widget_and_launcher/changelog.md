@@ -1,7 +1,10 @@
-﻿## 更新日志 2022.5.15
+﻿
+## 更新日志 2022.5.27
+1. moto小部件更新至4.06.37；
+
+## 更新日志 2022.5.15
 1. 添加了四套最新的sony动态壁纸，就还挺酷炫；
 2. 12l的Corvus launcher换成了crdroid home 支持换图标，不喜欢的也可以继续下[Corvus Launcher版](https://github.com/ozingi/moto_widget_and_launcher/releases/download/release_v1.9.01/moto.widget.and.Corvus.launcher.V1.9.01.zip)同样有新壁纸。
-
 ## 更新日志 2022.5.12
 1. Corvus Launcher安装过程优化，避免闪退。
 2.优化模块体积和安装后清理。
