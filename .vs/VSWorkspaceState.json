@@ -8,7 +8,9 @@
     "\\json",
     "\\json\\mMoudle",
     "\\json\\mMoudle\\update",
-    "\\json\\mMoudle\\update\\moto_widget_and_launcher"
+    "\\json\\mMoudle\\update\\moto_widget_and_launcher",
+    "\\json\\mMoudle\\update\\winemoji_magisk"
   ],
+  "SelectedNode": "\\json\\mMoudle\\update\\moto_widget_and_launcher\\updateJson.json",
   "PreviewInSolutionExplorer": false
 }
