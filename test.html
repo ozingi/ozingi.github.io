@@ -7,35 +7,45 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-	<div class="hideSlow">div会逐渐消失</div>
-        <style>
+    <div class="hideSlow">div会逐渐消失</div>
+    <a>W3School</a>
+    <style>
 
-        div{
-
-          width:150px;
-
-          height:100px;
-
-            opacity:0;
-
-            background-color:red;
-
-            animation-name:fadenum;
-
-            animation-duration:3s;
-
+        div {
+            width: 150px;
+            height: 100px;
+            opacity: 0;
+            background-color: red;
+            animation-name: fadenum;
+            animation-duration: 3s;
         }
 
-        @keyframes fadenum{
+        @keyframes fadenum {
 
-          0%{opacity:1;}
+            0% {
+                opacity: 1;
+            }
 
-          99%{opacity:1;}
+            99% {
+                opacity: 1;
+            }
 
-          100%{opacity:0;}
+            100% {
+                opacity: 0;
+            }
+        }
 
-}
-
+        script {
+        }
+        a {
+        }
+        .tooltip::after {
+            content: attr(data-tooltip);
+        }
     </style>
+    <script>
+        javascript: alert("test")
+    </script>
+
 </body>
 </html>

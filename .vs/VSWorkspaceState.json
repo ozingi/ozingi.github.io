@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\html",
     "\\html\\AD",
     "\\img",
@@ -8,9 +9,8 @@
     "\\json",
     "\\json\\mMoudle",
     "\\json\\mMoudle\\update",
-    "\\json\\mMoudle\\update\\moto_widget_and_launcher",
-    "\\json\\mMoudle\\update\\winemoji_magisk"
+    "\\json\\mMoudle\\update\\moto_widget_and_launcher"
   ],
-  "SelectedNode": "\\json\\mMoudle\\update\\moto_widget_and_launcher\\updateJson.json",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
