@@ -9,6 +9,8 @@
 <body>
     <div class="hideSlow">div会逐渐消失</div>
     <a>W3School</a>
+    <div class="classname">刚刚</div>
+    <div class="classname">刚啊刚</div>
     <style>
 
         div {
@@ -37,14 +39,19 @@
 
         script {
         }
+
         a {
         }
+
         .tooltip::after {
             content: attr(data-tooltip);
         }
     </style>
     <script>
         javascript: alert("test")
+        document.getElementsByClassName("classname")[0].onmouseover = function () {
+            console.log("离谱，我被执行了")
+        }
     </script>
 
 </body>
