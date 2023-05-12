@@ -1,9 +1,7 @@
-﻿## 更新日志 2022.11.30
-1. microG Services Core更新到0.2.25.223616版本；
+﻿## 更新日志 2023.05.12
+1. microG Services Core更新到0.2.27.223616版本；
+2. 优化了一些细节
 
-## 近期主要更新 2022.10.18
-1. 针对安卓13优化,对于安卓13之前的设备请继续使用历史版本；
-2. play store更新到32.3.16版本。
 ##  反馈
 github：[microG_GSync/issues](https://github.com/ozingi/microG_GSync/issues)
 
