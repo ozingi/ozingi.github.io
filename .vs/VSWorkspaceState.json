@@ -6,11 +6,7 @@
     "\\json\\mModule\\update",
     "\\json\\mModule\\update\\microG_GSync",
     "\\json\\mModule\\update\\moto_widget_and_launcher",
-    "\\json\\mModule\\update\\winemoji_magisk",
-    "\\json\\mMoudle\\update",
-    "\\json\\mMoudle\\update\\microG_GSync",
-    "\\json\\mMoudle\\update\\moto_widget_and_launcher"
+    "\\json\\mModule\\update\\winemoji_magisk"
   ],
-  "SelectedNode": "\\json\\mModule\\update\\microG_GSync\\updateJson.json",
   "PreviewInSolutionExplorer": false
 }
