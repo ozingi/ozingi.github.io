@@ -1,4 +1,4 @@
-﻿## 更新日志 2023.05.13
+﻿## 更新日志 2023.05.30
 1. microG Services Core更新到[v0.2.28.231657](https://github.com/microg/GmsCore/releases/tag/v0.2.28.231657)版本；
 2. play store更新到34.4.16；
 3. 优化了一些细节。
