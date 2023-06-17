@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\json",
-    "\\json\\mModule",
-    "\\json\\mModule\\update",
-    "\\json\\mModule\\update\\microG_GSync",
-    "\\json\\mModule\\update\\moto_widget_and_launcher",
-    "\\json\\mModule\\update\\winemoji_magisk",
-    "\\json\\mMoudle\\update",
-    "\\json\\mMoudle\\update\\microG_GSync"
+    ""
   ],
-  "SelectedNode": "\\json\\mModule\\update\\microG_GSync\\updateJson.json",
+  "SelectedNode": "\\C:\\Users\\Administrator\\Source\\Repos\\ozingi\\ozingi.github.io",
   "PreviewInSolutionExplorer": false
 }
