@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\img\\dragonkey"
   ],
-  "SelectedNode": "\\C:\\Users\\Administrator\\Source\\Repos\\ozingi\\ozingi.github.io",
+  "SelectedNode": "\\img\\dragonkey\\droid_totp.png",
   "PreviewInSolutionExplorer": false
 }
