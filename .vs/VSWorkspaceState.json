@@ -1,8 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\html",
-    "\\html\\AD",
     "\\img",
     "\\img\\dragonkey",
     "\\json",
@@ -10,7 +8,8 @@
     "\\json\\mModule\\update",
     "\\json\\mModule\\update\\winemoji_magisk",
     "\\json\\mMoudle",
-    "\\json\\mMoudle\\update"
+    "\\json\\mMoudle\\update",
+    "\\json\\mMoudle\\update\\winemoji_magisk"
   ],
   "SelectedNode": "\\json\\mModule\\update\\winemoji_magisk\\changelog.md",
   "PreviewInSolutionExplorer": false
