@@ -4,8 +4,14 @@
     "\\html",
     "\\html\\AD",
     "\\img",
-    "\\img\\dragonkey"
+    "\\img\\dragonkey",
+    "\\json",
+    "\\json\\mModule",
+    "\\json\\mModule\\update",
+    "\\json\\mModule\\update\\winemoji_magisk",
+    "\\json\\mMoudle",
+    "\\json\\mMoudle\\update"
   ],
-  "SelectedNode": "\\html\\AD\\crypto.html",
+  "SelectedNode": "\\json\\mModule\\update\\winemoji_magisk\\changelog.md",
   "PreviewInSolutionExplorer": false
 }
