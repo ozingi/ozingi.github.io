@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\html",
+    "\\html\\AD",
     "\\img",
     "\\img\\dragonkey"
   ],
-  "SelectedNode": "\\img\\dragonkey\\droid_totp.png",
+  "SelectedNode": "\\html\\AD\\crypto.html",
   "PreviewInSolutionExplorer": false
 }
