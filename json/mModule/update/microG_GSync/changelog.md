@@ -1,6 +1,6 @@
 ﻿## 更新日志 2024.08.07
 1. microG Services Core更新到[v0.3.2.240913](https://github.com/microg/GmsCore/releases/tag/v0.3.2.240913)版本；
-2. play store更新到42.1.27；
+2. play store更新到38.1.18；
 3. 优化了一些细节。
 
    测试环境：LineageOS21 
