@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0a2a43 0%, #1e5879 100%);
+    color: #e6f7ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ma Shan Zheng', 'STKaiti', serif;
+    overflow: hidden;
+    position: relative;
+    cursor: none;
+}
+
+.container {
+    max-width: 800px;
+    padding: 3rem;
+    z-index: 20;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #ffb6c1, #ffd1dc, #ffb6c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+    letter-spacing: 8px;
+    position: relative;
+    z-index: 30;
+    animation: titleGlow 4s infinite alternate;
+}
+
+.poem {
+    font-size: 1.4rem;
+    line-height: 2.8;
+    margin: 2rem 0;
+    position: relative;
+    z-index: 30;
+}
+
+    .poem p {
+        margin: 1.5rem 0;
+        opacity: 0;
+        animation: fadeIn 1.2s forwards, breathe 4s infinite ease-in-out;
+        animation-delay: calc(var(--i) * 0.8s), calc(var(--i) * 0.8s + 1.2s);
+        text-shadow: 0 0 10px rgba(255, 182, 193, 0.7);
+        position: relative;
+        z-index: 30;
+        color: #ffe6ea;
+    }
+
+.signature {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #ffb6c1;
+    opacity: 0;
+    animation: fadeIn 2s forwards, breathe 5s infinite ease-in-out;
+    animation-delay: 7s, 7.5s;
+    position: relative;
+    z-index: 30;
+}
+
+/* 海浪容器 - 优化波浪动画 */
+.waves-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    z-index: 5;
+    cursor: pointer;
+    mask-image: linear-gradient(to top, rgba(0,0,0,1) 80%, transparent 100%);
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 400%; /* 增加宽度使动画更连贯 */
+    height: 100%;
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    transform-origin: bottom;
+    transition: transform 0.2s ease-out;
+}
+
+.wave-1 {
+    background: linear-gradient(transparent 30%, rgba(179, 217, 255, 0.2)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path fill="%23b3d9ff" fill-opacity="0.6" d="M0,40 C200,0 400,80 600,40 C800,0 1000,80 1200,40 L1200,120 L0,120 Z"></path></svg>');
+    background-size: 1200px 100%;
+    animation: waveAnim 40s linear infinite;
+    z-index: 10;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.wave-2 {
+    background: linear-gradient(transparent 40%, rgba(230, 179, 255, 0.2)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path fill="%23e6b3ff" fill-opacity="0.4" d="M0,30 C200,0 400,70 600,30 C800,0 1000,70 1200,30 L1200,120 L0,120 Z"></path></svg>');
+    background-size: 1200px 100%;
+    animation: waveAnim 32s linear infinite reverse;
+    z-index: 9;
+    height: 85%;
+    bottom: 10px;
+    opacity: 0.6;
+}
+
+/* 优化波浪动画关键帧 - 更流畅的波浪动画 */
+@keyframes waveAnim {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* 月光效果 - 更逼真的月亮 */
+.moon {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    z-index: 5;
+    background: radial-gradient(circle at 30% 30%, #fff9db 0%, #f9f3c8 20%, #e8d9a0 60%, transparent 80%);
+    box-shadow: 0 0 80px rgba(255, 249, 219, 0.7), 0 0 120px rgba(255, 249, 219, 0.4), 0 0 200px rgba(255, 249, 219, 0.2);
+    opacity: 0.9;
+    animation: moonGlow 8s infinite alternate;
+}
+
+.moon-crater {
+    position: absolute;
+    background: rgba(200, 180, 150, 0.3);
+    border-radius: 50%;
+}
+
+    .moon-crater:nth-child(1) {
+        width: 25px;
+        height: 25px;
+        top: 30%;
+        left: 20%;
+    }
+
+    .moon-crater:nth-child(2) {
+        width: 15px;
+        height: 15px;
+        top: 50%;
+        left: 60%;
+    }
+
+    .moon-crater:nth-child(3) {
+        width: 20px;
+        height: 20px;
+        top: 65%;
+        left: 35%;
+    }
+
+/* 心形花瓣效果 */
+.petal {
+    position: absolute;
+    background-size: contain;
+    opacity: 0.7;
+    z-index: 15;
+    pointer-events: none;
+    transition: transform 0.3s ease-out;
+}
+
+/* 自定义鼠标指针 */
+.cursor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 182, 193, 0.4) 0%, transparent 70%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 100;
+    mix-blend-mode: screen;
+}
+
+.cursor-inner {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #ffb6c1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 动画定义 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes breathe {
+    0%, 100% {
+        text-shadow: 0 0 10px rgba(255, 182, 193, 0.7);
+    }
+
+    50% {
+        text-shadow: 0 0 20px rgba(255, 182, 193, 1);
+    }
+}
+
+@keyframes titleGlow {
+    0%, 100% {
+        text-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+    }
+
+    50% {
+        text-shadow: 0 0 25px rgba(255, 182, 193, 0.8);
+    }
+}
+
+/* 优化波浪动画关键帧 - 更流畅的波浪动画 */
+@keyframes waveAnim {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-66.66%);
+    }
+}
+
+@keyframes moonGlow {
+    0%, 100% {
+        opacity: 0.8;
+        box-shadow: 0 0 80px rgba(255, 249, 219, 0.7), 0 0 120px rgba(255, 249, 219, 0.4), 0 0 200px rgba(255, 249, 219, 0.2);
+    }
+
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 100px rgba(255, 249, 219, 0.9), 0 0 150px rgba(255, 249, 219, 0.6), 0 0 250px rgba(255, 249, 219, 0.3);
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .poem {
+        font-size: 1.2rem;
+        line-height: 2.2;
+    }
+
+    .moon {
+        width: 100px;
+        height: 100px;
+        top: 10%;
+        right: 10%;
+    }
+}

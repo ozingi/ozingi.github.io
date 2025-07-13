@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\html",
-    "\\html\\AD",
-    "\\json",
     "\\json\\mModule",
     "\\json\\mModule\\update",
     "\\json\\mModule\\update\\microG_GSync",
     "\\json\\mMoudle",
     "\\json\\mMoudle\\update",
-    "\\json\\mMoudle\\update\\winemoji_magisk"
+    "\\json\\mMoudle\\update\\winemoji_magisk",
+    "\\script"
   ],
-  "SelectedNode": "\\html\\AD\\crypto.html",
+  "SelectedNode": "\\script\\loveScript.js",
   "PreviewInSolutionExplorer": false
 }
